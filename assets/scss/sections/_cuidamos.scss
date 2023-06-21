@@ -1,0 +1,17 @@
+.cuidamos-area {
+    padding-bottom: 385px;
+    .cuidamos-title {
+        margin-bottom: 90px;
+    }
+    .cuidamos-text {
+        .desc {
+            font-family: $titleFont;
+            font-size: 30px;
+            max-width: 275px;
+            line-height: 1.1;
+        }
+    }
+    .cuidamos-wrapper {
+        margin-top: 60px;
+    }
+}

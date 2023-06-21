@@ -1,0 +1,104 @@
+.visitar-area {
+    padding-bottom: 195px;
+}
+.visitar-1 {
+    .visitar-header {
+        max-width: 715px;
+        padding-bottom: 125px;
+    }
+}
+.visitar-header {
+    max-width: 680px;
+    padding-bottom: 125px;
+    .title {
+        margin-bottom: 45px;
+    }
+}
+.visitar-item {
+    margin-bottom: 95px;
+    .visitar-content {
+        margin-top: 28px;
+        .title-link {
+            font-size: 18px;
+            text-transform: uppercase;
+            transition: 0.4s;
+            font-family: $bodyFont;
+            color: $titleColor;
+            &:hover {
+                color: $primaryColor;
+            }
+        }
+        .visitar-link {
+            display: inline-block;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: $titleColor;
+            transition: 0.4s;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: "";
+                width: 0;
+                height: 1px;
+                background: $titleColor;
+                bottom: 0;
+                left: 0;
+                transition: 0.4s;
+            }
+            &:hover {
+                &::before {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .visitar-1 {
+        padding-left: 39px;
+        .desc {
+            max-width: 300px;
+        }
+    }
+    .visitar-4 {
+        padding-left: 39px;
+        .desc {
+            max-width: 350px;
+        }
+    }
+    .visitar-5 {
+        padding-left: 60px;
+        .desc {
+            max-width: 350px;
+            margin-bottom: 54px;
+        }
+    }
+    .visitar-6 {
+        padding-left: 60px;
+        .desc {
+            max-width: 350px;
+            margin-bottom: 87px;
+        }
+    }
+    .visitar_1 {
+        padding-left: 39px;
+        .desc {
+            max-width: 335px;
+        }
+    }
+    .visitar_5 {
+        padding-left: 60px;
+        .desc {
+            margin-bottom: 88px;
+        }
+    }
+}
+.cargas-link {
+    margin-top: 65px;
+    .cargas {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: $titleColor;
+        transition: 0.4s;
+        display: inline-block;
+        border-bottom: 1px solid $titleColor;
+    }
+}

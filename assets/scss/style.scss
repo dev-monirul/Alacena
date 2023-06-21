@@ -1,0 +1,133 @@
+/*============================================================
+[Master Stylesheet]
+
+* Template : Boxfin - Corporate Business HTML Template
+* Author : SoftCoderes
+* Version:        1.0
+* Author URI : http://www.softcoders.net/ 
+
+=========================================================*/
+/*=======================================================
+TABLE OF CONTENTS:
+
+01 global Style
+02 Spacing CSS
+
+====== section stylsheet ======
+03 header section
+04 banner section
+05 about section
+06 canvas section
+07 service section
+08 feature section
+09 client section
+10 counter section
+11 price section
+12 business section
+13 testimonial section
+14 blog section
+15 apps section
+16 footer section
+====== inner page stylsheet ======
+17 breadcrumb page
+18 blog Page
+19 blog-details Page
+20 faq page
+21 contact page
+22 team Page
+====== responsive stylsheet ======
+23 responsive style  */
+
+@import "main/variable";
+
+// //*========== 01 global Style ==========*//
+@import "main/global";
+
+// //*========== 02 Spacing CSS ==========*//
+@import "main/sc-spacing";
+
+// //*========== 03 header section ==========*//
+@import "sections/header";
+
+// //*========== 03 header section ==========*//
+@import "sections/banner";
+
+// //*========== 03 header section ==========*//
+@import "sections/nuestra";
+
+// //*========== 03 header section ==========*//
+@import "sections/nuestro";
+
+// //*========== 03 header section ==========*//
+@import "sections/ambientacion";
+
+// //*========== 03 header section ==========*//
+@import "sections/confia";
+
+// //*========== 03 header section ==========*//
+@import "sections/contacto";
+
+// //*========== 03 header section ==========*//
+@import "sections/blog";
+
+// //*========== 03 header section ==========*//
+@import "sections/tabs";
+
+// //*========== 03 header section ==========*//
+@import "sections/bodas";
+
+// //*========== 03 header section ==========*//
+@import "sections/catering";
+
+// //*========== 03 header section ==========*//
+@import "sections/puesta";
+
+// //*========== 03 header section ==========*//
+@import "sections/carino";
+
+// //*========== 03 header section ==========*//
+@import "sections/lugares";
+
+// //*========== 03 header section ==========*//
+@import "sections/galeria";
+
+// //*========== 03 header section ==========*//
+@import "sections/completamos";
+
+// //*========== 03 header section ==========*//
+@import "sections/cta";
+
+// //*========== 03 header section ==========*//
+@import "sections/client";
+
+// //*========== 03 header section ==========*//
+@import "sections/equipo";
+
+// //*========== 03 header section ==========*//
+@import "sections/diversos";
+
+// //*========== 03 header section ==========*//
+@import "sections/cuidamos";
+
+// //*========== 03 header section ==========*//
+@import "sections/visitar";
+
+// //*========== 03 header section ==========*//
+@import "sections/gallery";
+
+// //*========== 03 header section ==========*//
+@import "sections/departamentos";
+
+// //*========== 03 header section ==========*//
+@import "sections/footer";
+
+// //*========== 03 header section ==========*//
+@import "sections/button";
+
+//*========== 06 canvas section ==========*//
+@import "sections/canvas";
+
+//*========== 20 faq page ==========*//
+
+//*========== 23 responsive style ==========*//
+@import "main/responsive";

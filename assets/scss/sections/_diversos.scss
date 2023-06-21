@@ -1,0 +1,80 @@
+.diversos-area {
+    padding-bottom: 120px;
+    .diversos-title {
+        margin-bottom: 80px;
+        .title {
+            margin-bottom: 35px;
+        }
+        .desc {
+            max-width: 535px;
+        }
+    }
+    .alacena-secondary-btn {
+        font-size: 14px;
+        text-transform: uppercase;
+        border: 1px solid #0d0d0d;
+        color: #0d0d0d;
+        height: 60px;
+        line-height: 60px;
+        min-width: 317px;
+        display: inline-block;
+        text-align: center;
+    }
+}
+.diversos-item {
+    margin-bottom: 140px;
+    .diversos-content {
+        margin-bottom: 30px;
+    }
+    .title-link {
+        color: $titleColor;
+        transition: 0.4s;
+        position: relative;
+        display: block;
+        margin-bottom: 60px;
+        &::before {
+            position: absolute;
+            content: "";
+            width: 170px;
+            height: 1px;
+            background: #707070;
+            bottom: -30px;
+            left: 0;
+            transition: 0.4s;
+        }
+    }
+    .desc {
+        font-size: 18px;
+        max-width: 240px;
+    }
+    .desc_1 {
+        margin-bottom: 73px;
+        max-width: 290px;
+    }
+    .desc-1 {
+        max-width: 345px;
+    }
+    .ver-link {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $bodyColor;
+        transition: 0.4s;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: "";
+            display: inline-block;
+            width: 0;
+            height: 1px;
+            bottom: 0;
+            left: 0;
+            background: $bodyColor;
+            transition: 0.4s;
+        }
+        &:hover {
+            &::before {
+                width: 100%;
+            }
+        }
+    }
+}

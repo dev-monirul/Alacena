@@ -1,0 +1,109 @@
+.tabs-area {
+    padding-top: 125px;
+    padding-bottom: 85px;
+}
+.tabs-content-area {
+    border-top: 1px solid #707070;
+    .nav-tabs {
+        border-bottom: none;
+        margin-bottom: 60px;
+        margin-top: 45px;
+        .nav-link {
+            margin-bottom: 0;
+            background: transparent;
+            border: 1px solid transparent;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            padding: 0;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: $titleColor;
+            margin-right: 50px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        .nav-link.active {
+            color: $primaryColor;
+        }
+    }
+    .tabs-item {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+// tabs-slider-area
+.tabs-slider-area {
+    .tabs-content-inner {
+        padding: 0 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .product-grid {
+        width: 645px;
+    }
+    .nav-tabs {
+        border-bottom: none;
+        align-items: center;
+        .nav-link {
+            padding: 0;
+            color: $titleColor;
+            text-transform: uppercase;
+            font-size: 18px;
+            margin-left: 50px;
+            margin-bottom: 0;
+        }
+        .active {
+            background-color: transparent;
+            color: $primaryColor;
+            display: inline-block;
+            border-radius: 0;
+            padding: 0;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 1px;
+                bottom: 7px;
+                left: 0;
+                background-color: $primaryColor;
+            }
+        }
+    }
+    .tabs-wrapper {
+        margin: 0 12px 70px;
+        img {
+            width: 100%;
+            height: 500px;
+        }
+    }
+    .prev-arrow {
+        position: absolute;
+        bottom: 0;
+        z-index: 9;
+        left: 300px;
+        img {
+            max-width: 20px;
+        }
+    }
+    .next-arrow {
+        position: absolute;
+        bottom: 0;
+        z-index: 9;
+        right: 300px;
+        img {
+            max-width: 20px;
+        }
+    }
+    .btn-mt {
+        margin-top: 175px;
+    }
+}
+.tabs-slider-2 {
+    padding-bottom: 275px;
+}
+.tabs-slider-3 {
+    padding-bottom: 155px;
+}

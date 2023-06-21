@@ -1,0 +1,135 @@
+.alacena-header-section {
+    padding-top: 15px;
+}
+.alacena-top-menu {
+    margin-bottom: 15px;
+    .top-menu {
+        li {
+            display: inline-block;
+            position: relative;
+            margin-left: 45px;
+            &:first-child {
+                margin-left: 0;
+            }
+            .border-1 {
+                font-size: 12px;
+                text-transform: uppercase;
+                color: $titleColor;
+                position: relative;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 1px;
+                    height: 100%;
+                    top: -1px;
+                    left: -20px;
+                    background: $titleColor;
+                }
+            }
+            .active {
+                color: $primaryColor;
+                position: relative;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    display: inline-block;
+                    width: 0;
+                    height: 1px;
+                    background: $primaryColor;
+                    bottom: 0;
+                    left: 0;
+                    transition: 0.4s;
+                }
+                &:hover {
+                    &::before {
+                        width: 100%;
+                    }
+                }
+            }
+            .icon-angle-arrow:before {
+                font-size: 6px;
+                color: $titleColor;
+            }
+            &:hover {
+                a {
+                    color: $primaryColor;
+                }
+                .icon-angle-arrow:before {
+                    color: $primaryColor;
+                }
+            }
+            .sub-menu {
+                position: absolute;
+                padding-left: 0;
+                margin-left: -12px;
+                text-align: center;
+                background: #e5ac0e;
+                z-index: 9;
+                width: 40px;
+                padding: 6px 0 4px;
+                opacity: 0;
+                visibility: hidden;
+                transition: 0.4s;
+                li {
+                    display: block;
+                    margin-left: 0;
+                    a {
+                        color: $whiteColor;
+                        transition: 0.4s;
+                        font-size: 12px;
+                        &:hover {
+                            color: $whiteColor;
+                        }
+                    }
+                }
+            }
+            &:hover {
+                .sub-menu {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+        }
+    }
+}
+// alacena-main-menu
+.alacena-main-menu {
+    .main-menu {
+        li {
+            display: inline-block;
+            margin-right: 35px;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                color: $titleColor;
+                font-size: 12px;
+                text-transform: uppercase;
+                transition: 0.4s;
+                &:hover {
+                    color: $primaryColor;
+                }
+            }
+            .active {
+                color: $primaryColor;
+                position: relative;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    display: inline-block;
+                    width: 0;
+                    height: 1px;
+                    background: $primaryColor;
+                    bottom: 0;
+                    left: 0;
+                    transition: 0.4s;
+                }
+                &:hover {
+                    &::before {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

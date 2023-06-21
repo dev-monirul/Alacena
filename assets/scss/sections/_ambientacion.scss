@@ -1,0 +1,38 @@
+.ambientacion-area {
+    padding-bottom: 365px;
+    .section-heading {
+        margin-bottom: 35px;
+        padding-left: 125px;
+        .title {
+            font-size: 90px;
+        }
+    }
+}
+.ambientacion-video {
+    position: relative;
+    .video-area {
+        position: absolute;
+        bottom: 185px;
+        left: 50%;
+        transform: translateX(-50%);
+        i {
+            width: 130px;
+            height: 130px;
+            line-height: 130px;
+            border-radius: 50%;
+            font-size: 40px;
+            display: inline-block;
+            text-align: center;
+            border: 2px solid $whiteColor;
+        }
+    }
+}
+.ambientacion-content {
+    margin-top: 40px;
+    padding-left: 125px;
+    .ambientacion-desc {
+        font-size: 21px;
+        max-width: 375px;
+        margin-bottom: 65px;
+    }
+}

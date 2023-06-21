@@ -1,0 +1,18 @@
+.nuestra-area {
+    padding-bottom: 285px;
+    .section-heading {
+        margin-bottom: 60px;
+        padding-left: 125px;
+        .title {
+            max-width: 600px;
+        }
+    }
+}
+.nuestra-item {
+    position: relative;
+    .nuestra-content {
+        position: absolute;
+        left: 40px;
+        bottom: 40px;
+    }
+}

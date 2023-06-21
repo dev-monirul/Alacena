@@ -1,0 +1,235 @@
+.bodas-area {
+    padding-top: 35px;
+    padding-bottom: 190px;
+    .corporavo-title {
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+.bodas-1 {
+    padding-bottom: 170px;
+}
+.bodas-2 {
+    padding-bottom: 140px;
+    .bodas-top-content {
+        margin-bottom: 80px;
+    }
+    .desc {
+        font-size: 14px;
+    }
+}
+.bodas-3 {
+    padding-bottom: 265px;
+    .corporavo-title {
+        margin-bottom: 15px;
+        display: block;
+    }
+    .sub-desc {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .bodas-top-content {
+        margin-bottom: 130px;
+    }
+}
+.bodas-4 {
+    padding-bottom: 115px;
+    .bodas-top-content {
+        margin-bottom: 10px;
+    }
+    .bodas-text {
+        margin-bottom: 20px;
+        ul {
+            li {
+                display: inline-block;
+                font-size: 12px;
+                text-transform: uppercase;
+                a {
+                    transition: 0.4s;
+                    color: $titleColor;
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+            }
+        }
+    }
+}
+.bodas-5 {
+    padding-bottom: 145px;
+    .bodas-bottom-content {
+        margin-bottom: 140px;
+    }
+    .bodas-top-content {
+        margin-bottom: 65px;
+        .title {
+            margin-bottom: 25px;
+        }
+    }
+    .lugares-form {
+        position: relative;
+        top: 14px;
+        .form-input {
+            position: relative;
+            input {
+                border-bottom: 1px solid $titleColor;
+                font-size: 14px;
+                text-transform: uppercase;
+            }
+            i {
+                position: absolute;
+                top: 2px;
+                right: -35px;
+            }
+            .icon-search:before {
+                font-size: 15px;
+                position: relative;
+                right: 55px;
+                transition: 0.4s;
+                color: $primaryColor;
+            }
+        }
+    }
+    .form-mr {
+        margin-right: 55px;
+    }
+    .lugares-button {
+        .padding-1 {
+            padding-left: 15px;
+        }
+    }
+}
+.bodas-5 input::placeholder {
+    color: $titleColor;
+    opacity: 1; /* Firefox */
+}
+.bodas-5 input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $titleColor;
+}
+.bodas-5 input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: $titleColor;
+}
+.bodas-6 {
+    padding-bottom: 85px;
+    .bodas-bg {
+        margin-bottom: 65px;
+    }
+    .bodas-text {
+        margin-bottom: 20px;
+        ul {
+            li {
+                display: inline-block;
+                font-size: 12px;
+                text-transform: uppercase;
+                a {
+                    transition: 0.4s;
+                    color: $titleColor;
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+            }
+        }
+    }
+    .bodas-title {
+        margin-bottom: 45px;
+        .title {
+            font-size: 36px;
+            font-family: $bodyFont;
+        }
+    }
+    .left-desc {
+        max-width: 450px;
+    }
+    .castillo-text {
+        .castillo-list {
+            li {
+                text-transform: uppercase;
+                font-size: 16px;
+                .pax {
+                    text-transform: capitalize;
+                    padding-left: 10px;
+                }
+                .terrazas {
+                    text-transform: capitalize;
+                    padding-left: 50px;
+                }
+                .propio {
+                    text-transform: capitalize;
+                    padding-left: 30px;
+                }
+            }
+        }
+    }
+}
+.bodas-7 {
+    padding-bottom: 220px;
+    .bodas-top-content {
+        margin-bottom: 30px;
+    }
+    .sub-title {
+        font-size: 18px;
+        color: $primaryColor;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .desc {
+        font-size: 15px;
+    }
+    .bodas-text {
+        margin-bottom: 20px;
+        ul {
+            li {
+                display: inline-block;
+                font-size: 12px;
+                text-transform: uppercase;
+                a {
+                    transition: 0.4s;
+                    color: $titleColor;
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+            }
+        }
+    }
+}
+.bodas-8 {
+    .bodas-top-content {
+        .title {
+            margin-bottom: 35px;
+        }
+        .desc {
+            font-size: 15px;
+        }
+    }
+}
+.bodas-bg {
+    img {
+        width: 100%;
+    }
+}
+.bodas-top-content {
+    padding-left: 55px;
+    margin-bottom: 110px;
+    .bodas-text {
+        margin-top: 15px;
+        ul {
+            li {
+                font-size: 14px;
+                text-transform: uppercase;
+                color: $primaryColor;
+            }
+        }
+    }
+}
+.bodas-bottom-content {
+    margin-top: 110px;
+    padding-left: 55px;
+    .desc {
+        font-size: 21px;
+        margin-bottom: 35px;
+    }
+}

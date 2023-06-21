@@ -1,0 +1,27 @@
+.client-area {
+    padding-top: 20px;
+    padding-bottom: 245px;
+    .client-title {
+        max-width: 600px;
+        margin: 145px auto;
+    }
+}
+.client-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    .client-wrapper {
+        margin-right: 40px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+.client-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 620px;
+    margin: 0 auto;
+}

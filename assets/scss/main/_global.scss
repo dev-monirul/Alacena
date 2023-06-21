@@ -1,0 +1,184 @@
+//  01 global Style
+
+html,
+body {
+    font-size: 21px;
+    color: $bodyColor;
+    font-family: $bodyFont;
+    font-weight: 400;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+input,
+textarea,
+select {
+    border: 0;
+    background: transparent;
+    transition: 0.4s;
+    &:focus {
+        outline: none;
+    }
+}
+a {
+    transition: 0.4s;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $titleFont;
+    color: $titleColor;
+}
+h1 {
+    font-weight: 400;
+    font-size: 125px;
+    line-height: 1;
+}
+h2 {
+    font-weight: 400;
+    font-size: 80px;
+}
+h3 {
+    font-weight: 400;
+    font-size: 65px;
+}
+h4 {
+    font-weight: 400;
+    font-size: 60px;
+}
+h5 {
+    font-weight: 400;
+    font-size: 45px;
+}
+h6 {
+    font-weight: 400;
+    font-size: 40px;
+}
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+::-moz-selection {
+    background: $primaryColor;
+    text-shadow: none;
+    color: #ffffff;
+}
+::selection {
+    background: $primaryColor;
+    text-shadow: none;
+    color: #ffffff;
+    border: none;
+}
+.list-gap {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.section-heading {
+    .sub-title {
+        font-size: 18px;
+        color: $primaryColor;
+        display: block;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+}
+// active-color
+.primary-color {
+    color: $primaryColor;
+}
+.white-color {
+    color: $whiteColor;
+}
+.p-z-idex {
+    position: relative;
+    z-index: 3 !important;
+}
+
+// Translate
+@mixin transition($transition: 0.4s) {
+    transition: $transition;
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+}
+
+@mixin transitionEase($transition: 1s) {
+    transition: $transition all ease;
+    -webkit-transition: $transition all ease;
+    -moz-transition: $transition all ease;
+}
+
+@mixin transitionFade() {
+    -webkit-transition: opacity 1700ms ease-in, -webkit-transform 8000ms ease;
+    transition: opacity 1700ms ease-in, -webkit-transform 8000ms ease;
+    transition: transform 8000ms ease, opacity 1700ms ease-in;
+    transition: transform 8000ms ease, opacity 1700ms ease-in, -webkit-transform 8000ms ease;
+}
+
+// Border Style
+@mixin borderStyle($width: 1px, $color: #333) {
+    border: $width solid $color;
+}
+.priary-borer {
+    @include borderStyle();
+    @include transition($transition: 0.3s);
+}
+
+/*-- boxfin-scroll-top start --*/
+.alacena-scroll-top {
+    position: fixed;
+    right: 30px;
+    bottom: 25px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    display: block;
+    border-radius: 100%;
+    box-shadow: inset 0 0 0 0.1rem rgba(128, 130, 134, 0.25);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(0.75rem);
+    transition: all 0.2s linear, margin-right 0s;
+}
+.alacena-scroll-top.progress-done {
+    visibility: visible;
+    transform: translateY(0);
+}
+.alacena-scroll-top-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: $primaryColor;
+}
+.alacena-scroll-top > svg path {
+    fill: none;
+}
+.alacena-scroll-top > svg.progress-circle path {
+    stroke: $primaryColor;
+    stroke-width: 4;
+    box-sizing: border-box;
+    transition: all 200ms linear;
+}
+
+@media (min-width: 1px) {
+    .alacena-scroll-top.progress-done {
+        opacity: 1;
+    }
+}
+/*-- boxfin-scroll-top end --*/
