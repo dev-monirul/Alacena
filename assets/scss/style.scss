@@ -1,40 +1,12 @@
 /*============================================================
 [Master Stylesheet]
 
-* Template : Boxfin - Corporate Business HTML Template
-* Author : SoftCoderes
-* Version:        1.0
-* Author URI : http://www.softcoders.net/ 
-
 =========================================================*/
 /*=======================================================
 TABLE OF CONTENTS:
-
 01 global Style
-02 Spacing CSS
-
 ====== section stylsheet ======
-03 header section
-04 banner section
-05 about section
-06 canvas section
-07 service section
-08 feature section
-09 client section
-10 counter section
-11 price section
-12 business section
-13 testimonial section
-14 blog section
-15 apps section
-16 footer section
-====== inner page stylsheet ======
-17 breadcrumb page
-18 blog Page
-19 blog-details Page
-20 faq page
-21 contact page
-22 team Page
+
 ====== responsive stylsheet ======
 23 responsive style  */
 
@@ -42,9 +14,6 @@ TABLE OF CONTENTS:
 
 // //*========== 01 global Style ==========*//
 @import "main/global";
-
-// //*========== 02 Spacing CSS ==========*//
-@import "main/sc-spacing";
 
 // //*========== 03 header section ==========*//
 @import "sections/header";
