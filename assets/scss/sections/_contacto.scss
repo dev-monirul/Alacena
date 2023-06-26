@@ -34,9 +34,8 @@
             text-align: center;
             transition: 0.4s;
             &:hover {
-                background-color: #e5ac0e;
-                border-color: transparent;
-                color: $whiteColor;
+                border-color: #e5ac0e;
+                color: #e5ac0e;
             }
         }
     }
@@ -98,9 +97,8 @@
         background-color: transparent;
         border-color: transparent;
         color: $titleColor;
-        font-size: 18px;
         border-radius: 0;
-        font-size: 14px;
+        font-size: 16px;
         padding: 0;
         text-transform: uppercase;
     }

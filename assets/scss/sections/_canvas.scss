@@ -19,7 +19,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    width: 400px;
+    width: 100%;
     z-index: 9999;
     background: #fff;
     padding: 30px 30px 30px;
@@ -61,9 +61,9 @@
     visibility: visible;
     @include transition();
     .alacena-header {
-        border-bottom: 1px solid #e5e5e5;
-        padding-bottom: 35px;
-        margin-bottom: 30px;
+        border-bottom: 1px solid $primaryColor;
+        padding-bottom: 50px;
+        margin-bottom: 20px;
         .offcanvas-title {
             .product-title {
                 font-weight: 500;
@@ -110,17 +110,20 @@
         visibility: visible;
     }
 }
+.mobile-navbar-menu {
+    padding-left: 40px;
+}
 .mobile-navbar-menu .nav-menu li {
     position: relative;
 }
 
 .mobile-navbar-menu .nav-menu li a {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     display: block;
     color: #090b1a;
     padding: 10px 0;
-    line-height: 30px;
-    font-size: 18px;
+    line-height: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
     transition: 0.4s;
     width: 100%;
     font-family: $bodyFont;
@@ -143,7 +146,7 @@
     right: 0;
     top: 5px;
     display: block;
-    height: 40px;
+    height: 35px;
     width: 40px;
     cursor: pointer;
 }
@@ -193,6 +196,10 @@
 .mobile-navbar-menu ul ul li,
 .mobile-navbar-menu li:hover > ul > li {
     height: auto;
+}
+.mobile-navbar-menu-1 {
+    border-top: 1px solid $primaryColor;
+    border-bottom: 1px solid $primaryColor;
 }
 #mobile-navbar-menu {
     .nav-menu {

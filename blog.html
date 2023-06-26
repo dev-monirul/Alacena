@@ -13,8 +13,6 @@
         <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png" />
         <!-- Bootstrap  v5.1.3 css -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-        <!-- Sall css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/sal.css" />
         <!-- magnific css -->
         <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css" />
         <!-- Swiper Slider css -->
@@ -23,8 +21,6 @@
         <link rel="stylesheet" href="assets/css/slick.css" />
         <!-- Remixicon Fonts css -->
         <link rel="stylesheet" type="text/css" href="assets/css/ico-fonts.css" />
-        <!-- Remixicon Fonts css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/odometer.min.css" />
         <!-- style css -->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     </head>
@@ -34,15 +30,15 @@
             <!-- Header Section Start -->
             <div class="container">
                 <div class="row align-items-center justify-content-between p-z-idex">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                         <div class="alacena-logo">
                             <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-6">
+                    <div class="col-lg-9 col-md-6 col-sm-6 col-6">
                         <div class="alacena-top-menu d-lg-block d-none text-end">
                             <ul class="list-gap top-menu">
-                                <li><a class="border-1" href="#">Contacto</a></li>
+                                <li><a class="border-1" href="contacto.html">Contacto</a></li>
                                 <li>
                                     <a class="border-1" href="#">ES <i class="icon-angle-arrow"></i></a>
                                     <ul class="sub-menu">
@@ -54,14 +50,42 @@
                         </div>
                         <div class="alacena-main-menu d-lg-block d-none text-end">
                             <ul class="list-gap main-menu">
-                                <li><a href="#">Bodas</a></li>
-                                <li><a href="#">Corporativo</a></li>
-                                <li><a href="#">Particulares</a></li>
-                                <li><a href="#">Catering</a></li>
-                                <li><a href="#">Lugares</a></li>
-                                <li><a href="#">Nosotros</a></li>
-                                <li><a href="#">Galería</a></li>
+                                <li><a href="bodas.html">Bodas</a></li>
+                                <li><a href="empresa.html">Corporativo</a></li>
+                                <li><a href="particulares.html">Particulares</a></li>
+                                <li>
+                                    <a href="catering-boras.html">Catering</a>
+                                    <ul class="list-gap sub-menu-list">
+                                        <li><a href="catering-boras.html">Catering Boras</a></li>
+                                        <li><a href="catering-corporativo.html">Catering Corporativo</a></li>
+                                        <li><a href="catering-general.html">Catering General</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="lugares.html">Lugares</a>
+                                    <ul class="list-gap sub-menu-list">
+                                        <li><a href="lugares.html">Lugares</a></li>
+                                        <li><a href="lugares-bendinat.html">Lugares Bendinat</a></li>
+                                    </ul>
+                                </li>
+                                <li class="current-menu-item">
+                                    <a class="active" href="nosotros.html">Nosotros</a>
+                                    <ul class="list-gap sub-menu-list">
+                                        <li><a class="active" href="blog.html">Blog</a></li>
+                                        <li><a href="nosotros.html">Nosotros</a></li>
+                                        <li><a href="nosotros-andre.html">Nosotros Andre</a></li>
+                                        <li><a href="nosotros-equipo.html">Nosotros Equipo</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="galeria.html">Galería</a></li>
                             </ul>
+                        </div>
+                        <div class="hambagur-icon text-end d-none">
+                            <a id="canva_expander" href="#" class="nav-menu-link menu-button">
+                                <span class="hambagur-1"></span>
+                                <span class="hambagur-2"></span>
+                                <span class="hambagur-3"></span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +100,7 @@
                     <div class="col-lg-5"></div>
                     <div class="col-lg-7">
                         <div class="blog-title">
-                            <h1 class="title">Blog</h1>
+                            <h1 class="title" data-splitting>Blog</h1>
                         </div>
                     </div>
                 </div>
@@ -86,18 +110,13 @@
                             <div class="blog-item">
                                 <img class="video-img" src="assets/images/blog/blog-1.png" alt="Image" />
                                 <div class="video-area">
-                                    <a
-                                        class="venobox popup-videos-button"
-                                        data-autoplay="true"
-                                        data-vbtype="video"
-                                        href="https://youtu.be/XU0FYlY9_E0"
-                                    >
+                                    <a class="venobox popup-videos-button" data-autoplay="true" data-vbtype="video" href="https://youtu.be/XU0FYlY9_E0">
                                         <i class="icon-video-icon"></i>
                                     </a>
                                 </div>
                                 <div class="blog-content">
                                     <span class="date"> 20 nov 2022</span>
-                                    <h6>
+                                    <h6 data-splitting>
                                         <a class="title-link" href="blog.html">
                                             Dimonis i foc para conmemorar<br />
                                             el FCMallorca</a
@@ -106,11 +125,11 @@
                                     <a class="blog-link" href="#"> Leer más</a>
                                 </div>
                             </div>
-                            <div class="blog-item">
+                            <div class="blog-item alacena-diplay-hide-2">
                                 <img src="assets/images/blog/blog-2.png" alt="Image" />
                                 <div class="blog-content">
                                     <span class="date"> 20 nov 2022</span>
-                                    <h6>
+                                    <h6 data-splitting>
                                         <a class="title-link" href="blog.html"> Bodas alternativas: rompe las normas</a>
                                     </h6>
                                     <a class="blog-link" href="#"> Leer más</a>
@@ -120,42 +139,37 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="blog-item">
                             <img src="assets/images/blog/blog-3.png" alt="Image" />
                             <div class="blog-content">
                                 <span class="date"> 20 sept 2022</span>
-                                <h6><a class="title-link" href="blog.html"> Museos y cenas de gala</a></h6>
+                                <h6 data-splitting><a class="title-link" href="blog.html"> Museos y cenas de gala</a></h6>
                                 <p class="desc_1">
-                                    Blandit cubilia fusce dictum dapibus nam tellus suspendisse a cursus arcu, ultricies
-                                    mattis quam ornare dictumst penatibus turpis porttitor.
+                                    Blandit cubilia fusce dictum dapibus nam tellus suspendisse a cursus arcu, ultricies mattis quam ornare dictumst penatibus turpis porttitor.
                                 </p>
                                 <a class="blog-link" href="#"> Leer más</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="blog-item">
                             <img src="assets/images/blog/blog-4.png" alt="Image" />
                             <div class="blog-content blog-pl">
                                 <span class="date"> 20 nov 2022</span>
-                                <h6><a class="title-link" href="blog.html"> Nuevas fincas en nuestro catálogo</a></h6>
-                                <p class="desc-1">
-                                    Faucibus scelerisque duis fames magnis nam dignissim per eget semper.
-                                </p>
+                                <h6 data-splitting><a class="title-link" href="blog.html"> Nuevas fincas en nuestro catálogo</a></h6>
+                                <p class="desc-1">Faucibus scelerisque duis fames magnis nam dignissim per eget semper.</p>
                                 <a class="blog-link" href="#"> Leer más</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="blog-item">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item alacena-diplay-hide">
                             <img src="assets/images/blog/blog-5.png" alt="Image" />
                             <div class="blog-content">
                                 <span class="date"> 20 nov 2022</span>
-                                <h6><a class="title-link" href="blog.html"> Meriendas con toque floral</a></h6>
-                                <p class="desc-1">
-                                    Vulputate posuere consequat orci sapien metus dictumst nullam laoreet faucibus.
-                                </p>
+                                <h6 data-splitting><a class="title-link" href="blog.html"> Meriendas con toque floral</a></h6>
+                                <p class="desc-1">Vulputate posuere consequat orci sapien metus dictumst nullam laoreet faucibus.</p>
                                 <a class="blog-link" href="#"> Leer más</a>
                             </div>
                         </div>
@@ -164,39 +178,32 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="blog-content-area blog-content-1">
-                            <div class="blog-item">
+                            <div class="blog-item alacena-diplay-hide-2">
                                 <img src="assets/images/blog/blog-6.png" alt="Image" />
                                 <div class="blog-content">
                                     <span class="date"> 20 sept 2022</span>
-                                    <h6>
+                                    <h6 data-splitting>
                                         <a class="title-link" href="blog.html"> Nuevos menús de verano</a>
                                     </h6>
-                                    <p class="desc-1">
-                                        Sociis malesuada diam hendrerit molestie quam odio torquent imperdiet.
-                                    </p>
+                                    <p class="desc-1">Sociis malesuada diam hendrerit molestie quam odio torquent imperdiet.</p>
                                     <a class="blog-link" href="#"> Leer más</a>
                                 </div>
                             </div>
                             <div class="blog-item blog-item-1">
                                 <img class="video-img" src="assets/images/blog/blog-7.png" alt="Image" />
                                 <div class="video-area">
-                                    <a
-                                        class="venobox popup-videos-button"
-                                        data-autoplay="true"
-                                        data-vbtype="video"
-                                        href="https://youtu.be/XU0FYlY9_E0"
-                                    >
+                                    <a class="venobox popup-videos-button" data-autoplay="true" data-vbtype="video" href="https://youtu.be/XU0FYlY9_E0">
                                         <i class="icon-video-icon"></i>
                                     </a>
                                 </div>
                                 <div class="blog-content">
                                     <span class="date"> 20 nov 2022</span>
-                                    <h6>
+                                    <h6 data-splitting>
                                         <a class="title-link" href="blog.html"> Evento para CAFBAL</a>
                                     </h6>
                                     <p class="desc">
-                                        Platea pellentesque proin dapibus donec cum curabitur faucibus tincidunt,
-                                        quisque eleifend venenatis etiam lobortis interdum vehicula nullam tellus.
+                                        Platea pellentesque proin dapibus donec cum curabitur faucibus tincidunt, quisque eleifend venenatis etiam lobortis interdum vehicula nullam
+                                        tellus.
                                     </p>
                                     <a class="blog-link" href="#"> Leer más</a>
                                 </div>
@@ -221,21 +228,26 @@
             <div class="container">
                 <div class="row br-top">
                     <div class="col-lg-3">
-                        <div class="footer-logo">
-                            <a href="index.html"> <img src="assets/images/logo.png" alt="Image" /></a>
+                        <div class="footer-logo-area d-flex align-items-center justify-content-between">
+                            <div class="footer-logo">
+                                <a href="index.html"> <img src="assets/images/logo.png" alt="Image" /></a>
+                            </div>
+                            <div class="logo-text d-none">
+                                <p class="desc">Experiencias gastronómicas a medida</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-lg-9 col-md-9">
                         <div class="footer-menu-area">
                             <div class="footer-menu text-end">
                                 <ul class="list-gap menu-list">
-                                    <li><a href="#"> Bodas</a></li>
-                                    <li><a href="#"> Corporativo</a></li>
-                                    <li><a href="#"> Particulares</a></li>
-                                    <li><a href="#"> Catering</a></li>
-                                    <li><a href="#"> Lugares</a></li>
-                                    <li><a href="#"> Nosotros</a></li>
-                                    <li><a href="#"> Galería</a></li>
+                                    <li><a href="bodas.html"> Bodas</a></li>
+                                    <li><a href="empresa.html"> Corporativo</a></li>
+                                    <li><a href="particulares.html"> Particulares</a></li>
+                                    <li><a href="catering-boras.html"> Catering</a></li>
+                                    <li><a href="lugares.html"> Lugares</a></li>
+                                    <li><a href="nosotros.html"> Nosotros</a></li>
+                                    <li><a href="galeria.html"> Galería</a></li>
                                 </ul>
                             </div>
                             <div class="footer-menu-1 text-end">
@@ -246,7 +258,7 @@
                                     <li class="list-5"><a href="#"> Blog</a></li>
                                     <li class="list-6 text-uppercase"><a href="#"> Contacto</a></li>
                                     <li class="sub-menu">
-                                        <a href="#">ES <i class="icon-angle-arrow"></i></a>
+                                        <a href="#"> ES <i class="icon-angle-arrow"></i></a>
                                         <ul class="menu-list">
                                             <li><a href="#"> Blog</a></li>
                                             <li><a href="#"> Contacto</a></li>
@@ -262,10 +274,10 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         <div class="copyright-left-content">
-                            <div class="copyright-target">La Alacena de Andreu Genestra 2023©</div>
+                            <div class="copyright-target">La Alacena de Genestra 2023©</div>
                             <div class="copyright-left-menu">
                                 <ul class="menu list-gap">
-                                    <li class="dots"><a href="#"> Política de privacidad</a></li>
+                                    <li class="dots"><a href="#"> privacidad</a></li>
                                     <li class="dots"><a href="#"> Cookies </a></li>
                                     <li><a href="#"> Créditos </a></li>
                                 </ul>
@@ -310,16 +322,77 @@
         </div>
         <!--========== Footer Section End ==============-->
 
+        <!--Sc Offcanvas Area Start-->
+        <div id="alacena-overlay" class="alacena-overlay"></div>
+        <div class="alacena-offcanvas-area">
+            <div class="alacena-header d-flex align-items-center justify-content-between">
+                <div class="footer-logo text-center"></div>
+                <div class="offcanvas-icon">
+                    <a id="canva_close" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="25px" height="25px">
+                            <path
+                                d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"
+                            />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Canvas Mobile Menu start -->
+            <nav class="right_menu_togle mobile-navbar-menu" id="mobile-navbar-menu">
+                <ul class="list-gap nav-menu sc-mb-45 sc-pl-0">
+                    <li class="menu-item-has-children">
+                        <a href="bodas.html"> Bodas</a>
+                    </li>
+                    <li>
+                        <a href="empresa.html"> Corporativo</a>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="particulares.html"> Particulares</a>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="catering-boras.html"> Catering</a>
+                        <ul class="list-gap sub-menu-list">
+                            <li><a href="catering-boras.html">Catering Boras</a></li>
+                            <li><a href="catering-corporativo.html">Catering Corporativo</a></li>
+                            <li><a href="catering-general.html">Catering General</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="lugares.html"> Lugares</a>
+                        <ul class="list-gap sub-menu-list">
+                            <li><a href="lugares.html">Lugares</a></li>
+                            <li><a href="lugares-bendinat.html">Lugares Bendinat</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="nosotros.html">Nosotros</a>
+                        <ul class="list-gap sub-menu-list">
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="nosotros-andre.html">Nosotros Andre</a></li>
+                            <li><a href="nosotros-equipo.html">Nosotros Equipo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <nav class="right_menu_togle mobile-navbar-menu mobile-navbar-menu-1" id="mobile-navbar-menu">
+                <ul class="list-gap nav-menu sc-mb-45 sc-pl-0">
+                    <li><a href="index.html">Español</a></li>
+                    <li><a href="index.html">Catalán</a></li>
+                    <li><a href="index.html">Inglés</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--Sc Offcanvas Area End-->
+
         <!-- start scrollUp  -->
         <div class="alacena-scroll-top progress-done">
             <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
                 <path
                     d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-                    style="
-                        transition: stroke-dashoffset 10ms linear 0s;
-                        stroke-dasharray: 307.919px, 307.919px;
-                        stroke-dashoffset: 71.1186px;
-                    "
+                    style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919px, 307.919px; stroke-dashoffset: 71.1186px"
                 ></path>
             </svg>
             <div class="alacena-scroll-top-icon">
@@ -333,10 +406,7 @@
                     data-icon="mdi:arrow-up"
                     class="iconify iconify--mdi"
                 >
-                    <path
-                        fill="currentColor"
-                        d="M13 20h-2V8l-5.5 5.5l-1.42-1.42L12 4.16l7.92 7.92l-1.42 1.42L13 8v12Z"
-                    ></path>
+                    <path fill="currentColor" d="M13 20h-2V8l-5.5 5.5l-1.42-1.42L12 4.16l7.92 7.92l-1.42 1.42L13 8v12Z"></path>
                 </svg>
             </div>
         </div>
@@ -356,14 +426,12 @@
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
         <!-- Swiper.min js -->
         <script src="assets/js/swiper.min.js"></script>
-        <!-- appear js -->
-        <script src="assets/js/jquery.appear.min.js"></script>
+        <script src="assets/js/splitting.js"></script>
+        <script src="assets/js/splitting-out.js"></script>
         <!-- Slick.min js -->
         <script src="assets/js/slick.min.js"></script>
-        <!-- odometer js -->
-        <script src="assets/js/odometer.min.js"></script>
-        <!-- sal js -->
-        <script src="assets/js/sal.js"></script>
+        <!-- parallax js -->
+        <script src="assets/js/parallax.min.js"></script>
         <!-- main js -->
         <script src="assets/js/main.js"></script>
     </body>

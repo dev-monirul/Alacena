@@ -57,7 +57,8 @@
             },
         },
     });
-    // Blog Slider
+
+    // catering Slider
     var swiper = new Swiper(".catering-slider", {
         slidesPerView: 2,
         spaceBetween: 30,
@@ -65,6 +66,60 @@
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
+        autoplay: {
+            delay: 8000,
+        },
+        loop: true,
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+            },
+            320: {
+                slidesPerView: 1,
+            },
+            576: {
+                slidesPerView: 1,
+            },
+            768: {
+                slidesPerView: 2,
+            },
+            1024: {
+                slidesPerView: 2,
+            },
+        },
+    });
+
+    // catering Slider
+    var swiper = new Swiper(".catering-slider-1", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+            delay: 8000,
+        },
+        loop: true,
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+            },
+            576: {
+                slidesPerView: 2,
+            },
+            768: {
+                slidesPerView: 2,
+            },
+            1024: {
+                slidesPerView: 3,
+            },
+        },
+    });
+    // Blog Slider
+    var swiper = new Swiper(".video-slider", {
+        slidesPerView: 2,
+        spaceBetween: 30,
         autoplay: {
             delay: 8000,
         },
@@ -112,6 +167,12 @@
                     },
                 },
                 {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                    },
+                },
+                {
                     breakpoint: 768,
                     settings: {
                         slidesToShow: 2,
@@ -120,7 +181,7 @@
                 {
                     breakpoint: 1199,
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 2,
                     },
                 },
                 {
@@ -142,10 +203,107 @@
             $("#overlay").fadeIn().delay(100).fadeOut();
         });
     }
+    // tabs-slider
+    if ($(".tabs-slider-one").length) {
+        $(".tabs-slider-one").slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            arrows: true,
+            autoplay: true,
+            loop: true,
+            autoplaySpeed: 7500,
+            pauseOnHover: false,
+            responsive: [
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                    },
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                    },
+                },
+                {
+                    breakpoint: 1366,
+                    settings: {
+                        slidesToShow: 4,
+                    },
+                },
+                {
+                    breakpoint: 1599,
+                    settings: {
+                        slidesToShow: 5,
+                    },
+                },
+            ],
+        });
+        $('.nav-pills button[data-bs-toggle="pill"]').on("shown.bs.tab", function (e) {
+            e.target;
+            e.relatedTarget;
+            $(".tabs-slider-one").slick("setPosition");
+        });
+    }
+    if ($(".categories-tab .nav-link").length) {
+        $(".categories-tab .nav-link").click(function () {
+            $("#overlay").fadeIn().delay(100).fadeOut();
+        });
+    }
+    // parallax Js
+    $(".parallax-window").parallax({ imageSrc: "assets/images/bg/corporativo.jpg" });
+    // parallax Js
+    $(".parallax-window-1").parallax({ imageSrc: "assets/images/bg/cta-2.jpg" });
+    // parallax Js
+    $(".parallax-window-2").parallax({ imageSrc: "assets/images/bg/confia-bg.jpg" });
+    // parallax Js
+    $(".parallax-window-3").parallax({ imageSrc: "assets/images/bg/nuestro-bg.jpg" });
+    // parallax Js
+    $(".parallax-window-4").parallax({ imageSrc: "assets/images/bg/bodas-1.jpg" });
+    // parallax Js
+    $(".parallax-window-5").parallax({ imageSrc: "assets/images/bg/galeria.jpg" });
+    // parallax Js
+    $(".parallax-window-6").parallax({ imageSrc: "assets/images/bg/cta-bg.jpg" });
+    // parallax Js
+    $(".parallax-window-7").parallax({ imageSrc: "assets/images/bg/bg-2.png" });
+    // parallax Js
+    $(".parallax-window-8").parallax({ imageSrc: "assets/images/bg/cta-4.jpg" });
+    // parallax Js
+    $(".parallax-window-9").parallax({ imageSrc: "assets/images/bg/corporativo-1.jpg" });
+    // parallax Js
+    $(".parallax-window-10").parallax({ imageSrc: "assets/images/bg/bg-3.png" });
+    // parallax Js
+    $(".parallax-window-11").parallax({ imageSrc: "assets/images/bg/cta-6.jpg" });
+    // parallax Js
+    $(".parallax-window-12").parallax({ imageSrc: "assets/images/bg/cta-5.jpg" });
+    // parallax Js
+    $(".parallax-window-13").parallax({ imageSrc: "assets/images/bg/bodas-6.jpg" });
+    // parallax Js
+    $(".parallax-window-14").parallax({ imageSrc: "assets/images/bg/lugares-6.jpg" });
+    // parallax Js
+    $(".parallax-window-15").parallax({ imageSrc: "assets/images/bg/confia-bg.jpg" });
+    // parallax Js
+    $(".parallax-window-16").parallax({ imageSrc: "assets/images/bg/bodas-5.jpg" });
+    // parallax Js
+    $(".parallax-window-17").parallax({ imageSrc: "assets/images/bg/bodas-2.jpg" });
+    // parallax Js
+    $(".parallax-window-18").parallax({ imageSrc: "assets/images/bg/bodas-3.jpg" });
+    // parallax Js
+    $(".parallax-window-19").parallax({ imageSrc: "assets/images/bg/bodas-4.jpg" });
+    // parallax Js
+    $(".parallax-window-20").parallax({ imageSrc: "assets/images/bg/particulares-bg.jpg" });
+    // parallax Js
+    $(".parallax-window-21").parallax({ imageSrc: "assets/images/bg/bg-1.png" });
+    // parallax Js
+    $(".parallax-window-22").parallax({ imageSrc: "assets/images/bg/cta-3.jpg" });
 
     /*-- alacena scroll top scripts start --*/
-    var boxfinScrollTop = document.querySelector(".alacena-scroll-top");
-    if (boxfinScrollTop != null) {
+    var alacenaScrollTop = document.querySelector(".alacena-scroll-top");
+    if (alacenaScrollTop != null) {
         var scrollProgressPatch = document.querySelector(".alacena-scroll-top path");
         var pathLength = scrollProgressPatch.getTotalLength();
         var offset = 50;
@@ -162,12 +320,12 @@
             scrollProgressPatch.style.strokeDashoffset = progress;
             var scrollElementPos = document.body.scrollTop || document.documentElement.scrollTop;
             if (scrollElementPos >= offset) {
-                boxfinScrollTop.classList.add("progress-done");
+                alacenaScrollTop.classList.add("progress-done");
             } else {
-                boxfinScrollTop.classList.remove("progress-done");
+                alacenaScrollTop.classList.remove("progress-done");
             }
         });
-        boxfinScrollTop.addEventListener("click", function (e) {
+        alacenaScrollTop.addEventListener("click", function (e) {
             e.preventDefault();
             window.scroll({
                 top: 0,
@@ -359,15 +517,15 @@
             return $(window).on("resize", resizeFix);
         });
     };
-    // Sal Animation
-    sal({
-        threshold: 0.1,
-        once: true,
-    });
 
     $(document).ready(function () {
         $("#mobile-navbar-menu").menumaker({
             format: "multitoggle",
+        });
+        /*-- splting js start --*/
+        Splitting();
+        ScrollOut({
+            targets: "[data-splitting]",
         });
     });
     // Select Box Style

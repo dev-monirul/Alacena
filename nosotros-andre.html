@@ -13,16 +13,12 @@
         <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png" />
         <!-- Bootstrap  v5.1.3 css -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-        <!-- Sall css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/sal.css" />
         <!-- magnific css -->
         <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css" />
         <!-- Swiper Slider css -->
         <link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css" />
         <!-- Remixicon Fonts css -->
         <link rel="stylesheet" type="text/css" href="assets/css/ico-fonts.css" />
-        <!-- Remixicon Fonts css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/odometer.min.css" />
         <!-- style css -->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     </head>
@@ -32,15 +28,15 @@
             <!-- Header Section Start -->
             <div class="container">
                 <div class="row align-items-center justify-content-between p-z-idex">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                         <div class="alacena-logo">
                             <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-6">
+                    <div class="col-lg-9 col-md-6 col-sm-6 col-6">
                         <div class="alacena-top-menu d-lg-block d-none text-end">
                             <ul class="list-gap top-menu">
-                                <li><a class="border-1" href="#">Contacto</a></li>
+                                <li><a class="border-1" href="contacto.html">Contacto</a></li>
                                 <li>
                                     <a class="border-1" href="#">ES <i class="icon-angle-arrow"></i></a>
                                     <ul class="sub-menu">
@@ -52,14 +48,42 @@
                         </div>
                         <div class="alacena-main-menu d-lg-block d-none text-end">
                             <ul class="list-gap main-menu">
-                                <li><a href="#">Bodas</a></li>
-                                <li><a href="#">Corporativo</a></li>
-                                <li><a href="#">Particulares</a></li>
-                                <li><a href="#">Catering</a></li>
-                                <li><a href="#">Lugares</a></li>
-                                <li><a class="active" href="#">Nosotros</a></li>
-                                <li><a href="#">Galería</a></li>
+                                <li><a href="bodas.html">Bodas</a></li>
+                                <li><a href="empresa.html">Corporativo</a></li>
+                                <li><a href="particulares.html">Particulares</a></li>
+                                <li>
+                                    <a href="catering-boras.html">Catering</a>
+                                    <ul class="list-gap sub-menu-list">
+                                        <li><a href="catering-boras.html">Catering Boras</a></li>
+                                        <li><a href="catering-corporativo.html">Catering Corporativo</a></li>
+                                        <li><a href="catering-general.html">Catering General</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="lugares.html">Lugares</a>
+                                    <ul class="list-gap sub-menu-list">
+                                        <li><a href="lugares.html">Lugares</a></li>
+                                        <li><a href="lugares-bendinat.html">Lugares Bendinat</a></li>
+                                    </ul>
+                                </li>
+                                <li class="current-menu-item">
+                                    <a class="active" href="nosotros.html">Nosotros</a>
+                                    <ul class="list-gap sub-menu-list">
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="nosotros.html">Nosotros</a></li>
+                                        <li><a class="active" href="nosotros-andre.html">Nosotros Andre</a></li>
+                                        <li><a href="nosotros-equipo.html">Nosotros Equipo</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="galeria.html">Galería</a></li>
                             </ul>
+                        </div>
+                        <div class="hambagur-icon text-end d-none">
+                            <a id="canva_expander" href="#" class="nav-menu-link menu-button">
+                                <span class="hambagur-1"></span>
+                                <span class="hambagur-2"></span>
+                                <span class="hambagur-3"></span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -74,7 +98,10 @@
                     <div class="col-lg-5"></div>
                     <div class="col-lg-7">
                         <div class="bodas-top-content">
-                            <h1 class="title">Andreu Genestra</h1>
+                            <h1 class="title" data-splitting>
+                                Andreu<br />
+                                Genestra
+                            </h1>
                         </div>
                     </div>
                     <div class="bodas-text">
@@ -85,22 +112,18 @@
                     </div>
                 </div>
             </div>
-            <div class="bodas-bg">
-                <img src="assets/images/bg/bodas-3.jpg" alt="Image" />
-            </div>
+            <div class="parallax-window-18" data-parallax="scroll" data-image-src="assets/images/bg/bodas-3.jpg"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5"></div>
                     <div class="col-lg-7">
                         <div class="bodas-bottom-content">
                             <p class="desc">
-                                Es uno de los cocineros mallorquines más queridos y respetados de la isla y ha
-                                contribuido a que Mallorca sea un destino gastronómico de referencia.
+                                Es uno de los cocineros mallorquines más queridos y respetados de la isla y ha contribuido a que Mallorca sea un destino gastronómico de referencia.
                             </p>
                             <p class="desc">
-                                Nacido en Inca, desde muy joven se sintió atraído por esta profesión, empezando probando
-                                fogones en Iberostar. Luego cursó estudios en la Escola d’Hoteleria de les Illes Balears
-                                para luego trabajar en los mejores hoteles de la isla.
+                                Nacido en Inca, desde muy joven se sintió atraído por esta profesión, empezando probando fogones en Iberostar. Luego cursó estudios en la Escola
+                                d’Hoteleria de les Illes Balears para luego trabajar en los mejores hoteles de la isla.
                             </p>
                         </div>
                     </div>
@@ -113,35 +136,31 @@
         <div class="puesta-area puesta-2">
             <div class="container">
                 <div class="puesta-title">
-                    <h2 class="title">Aprendizaje y experiencia</h2>
+                    <h2 class="title" data-splitting>Aprendizaje y experiencia</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 col-md-5">
                         <div class="puesta-wrapper">
-                            <img src="assets/images/puesta/puesta-5.jpg" alt="Image" />
+                            <img class="alacena-diplay-hide" src="assets/images/puesta/puesta-5.jpg" alt="Image" />
                         </div>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 col-md-7">
                         <div class="puesta-content">
                             <img class="puesta-img" src="assets/images/puesta/puesta-6.jpg" alt="Image" />
                             <p class="desc">
-                                Viajó para probar suerte en Barcelona y se instaló en el Hotel Condes de Barcelona.
-                                Gracias a su esfuerzo, Andreu volvió a Mallorca para quedarse con Marc Fosh en el Hotel
-                                Read’s, quien le enseñó una de sus bases culinarias. El Relais Chateux Son Brull fue
-                                quien le aportó la visión mallorquina selecta de la cocina.
+                                Viajó para probar suerte en Barcelona y se instaló en el Hotel Condes de Barcelona. Gracias a su esfuerzo, Andreu volvió a Mallorca para quedarse
+                                con Marc Fosh en el Hotel Read’s, quien le enseñó una de sus bases culinarias. El Relais Chateux Son Brull fue quien le aportó la visión mallorquina
+                                selecta de la cocina.
                             </p>
                             <p class="desc">
-                                De ahí viajó al País Vasco para hacer un stage en el restaurante Mugaritz y en casa de
-                                Juan Mari Arzak, dos de los cuales han marcado mucho su trayectoria, así como también a
-                                posteriori fue su estancia en el restaurante Espai Sucre y la experiencia con el
-                                reconocido chef alsaciano Jean Louis Neichel.
+                                De ahí viajó al País Vasco para hacer un stage en el restaurante Mugaritz y en casa de Juan Mari Arzak, dos de los cuales han marcado mucho su
+                                trayectoria, así como también a posteriori fue su estancia en el restaurante Espai Sucre y la experiencia con el reconocido chef alsaciano Jean
+                                Louis Neichel.
                             </p>
                             <p class="desc">
-                                Su ilusión era formar parte del mejor restaurante del mundo y fue en el 2008 cuando
-                                aterrizó en el Bulli durante toda la temporada, repitiendo parte del 2009. Seguidamente,
-                                y tras probar suerte en un pequeño restaurante llamado Laurus, cogió las riendas del
-                                restaurante El Pi del Hotel Barceló Formentor desempeñando su función de jefe de cocina
-                                por tres temporadas.
+                                Su ilusión era formar parte del mejor restaurante del mundo y fue en el 2008 cuando aterrizó en el Bulli durante toda la temporada, repitiendo parte
+                                del 2009. Seguidamente, y tras probar suerte en un pequeño restaurante llamado Laurus, cogió las riendas del restaurante El Pi del Hotel Barceló
+                                Formentor desempeñando su función de jefe de cocina por tres temporadas.
                             </p>
                         </div>
                     </div>
@@ -151,28 +170,51 @@
         <!--========== Puesta Section End ==============-->
 
         <!--========== Catering Section Start ==============-->
-        <div class="catering-area catering-3">
+        <div class="catering-area catering-3 alacena-slider-group">
             <div class="container">
+                <div class="catering-title">
+                    <h2 class="title" data-splitting>
+                        Cocinando<br />
+                        por el mundo
+                    </h2>
+                </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="catering-content-area">
-                            <div class="catering-title">
-                                <h2 class="title">
-                                    Cocinando<br />
-                                    por el mundo
-                                </h2>
+                        <div class="swiper catering-slider-1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="swider_wrapper wrapper-1">
+                                        <img src="assets/images/catering/catering-10.png" alt="Image" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swider_wrapper wrapper-2">
+                                        <img src="assets/images/catering/catering-11.png" alt="Image" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swider_wrapper wrapper-3">
+                                        <img src="assets/images/catering/catering-12.png" alt="Image" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swider_wrapper wrapper-1">
+                                        <img src="assets/images/catering/catering-10.png" alt="Image" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swider_wrapper wrapper-2">
+                                        <img src="assets/images/catering/catering-11.png" alt="Image" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swider_wrapper wrapper-3">
+                                        <img src="assets/images/catering/catering-12.png" alt="Image" />
+                                    </div>
+                                </div>
                             </div>
-                            <div class="catering-wrapper text-center">
-                                <div class="wrapper-1">
-                                    <img src="assets/images/catering/catering-10.png" alt="Image" />
-                                </div>
-                                <div class="wrapper-2">
-                                    <img src="assets/images/catering/catering-11.png" alt="Image" />
-                                </div>
-                                <div class="wrapper-3">
-                                    <img src="assets/images/catering/catering-12.png" alt="Image" />
-                                </div>
-                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
                     </div>
                 </div>
@@ -180,15 +222,12 @@
                     <div class="col-lg-7">
                         <div class="catering-bottom-content">
                             <p class="desc">
-                                Ha estado cocinando en las temporadas de invierno en lugares como Londres, Estocolmo,
-                                Brasil y Kuwait a las ordenes de la familia real y del catering Lazurd. Ha viajado a la
-                                India y ha vuelto entusiasmado con aroma a especias, como demostró en su ponencia en
-                                Madrid Fusión en 2015.
+                                Ha estado cocinando en las temporadas de invierno en lugares como Londres, Estocolmo, Brasil y Kuwait a las ordenes de la familia real y del
+                                catering Lazurd. Ha viajado a la India y ha vuelto entusiasmado con aroma a especias, como demostró en su ponencia en Madrid Fusión en 2015.
                             </p>
                             <p class="desc">
-                                Junto a su maestro Marc Fosh ha cocinado #a4manos arrancando aplausos de los comensales.
-                                Y ha hecho las delicias de la gente con sus tapas en distintas ediciones del Peccata
-                                Minuta. Andreu Genestra tiene hambre de vida.
+                                Junto a su maestro Marc Fosh ha cocinado #a4manos arrancando aplausos de los comensales. Y ha hecho las delicias de la gente con sus tapas en
+                                distintas ediciones del Peccata Minuta. Andreu Genestra tiene hambre de vida.
                             </p>
                         </div>
                     </div>
@@ -198,7 +237,7 @@
         <!--========== Catering Section End ==============-->
 
         <!--========== Lugares Section Start ==============-->
-        <div class="lugares-area lugares-4">
+        <div class="lugares-area lugares-4 alacena-diplay-hide">
             <div class="container">
                 <div class="row">
                     <div class="lugares-wrapper">
@@ -208,15 +247,13 @@
                     <div class="col-lg-7">
                         <div class="lugares-content">
                             <p class="desc">
-                                Entre todas estas colaboraciones, volvió a casa para compartir sus talentos con su
-                                propio restaurante en 2012, creando un estilo de cocina basado en ingredientes frescos y
-                                locales, una oda a la tierra y a sus raíces.
+                                Entre todas estas colaboraciones, volvió a casa para compartir sus talentos con su propio restaurante en 2012, creando un estilo de cocina basado en
+                                ingredientes frescos y locales, una oda a la tierra y a sus raíces.
                             </p>
                             <p class="desc">
-                                Posee huerto propio donde cultiva hortalizas, frutales, hierbas aromáticas, viñas,
-                                olivos y trigo mallorquín de ‘xeixa’, así como cría sus propias gallinas. También
-                                utiliza especias que compra durante sus viajes de invierno. Todo esto le ha valido
-                                recibir la preciada Estrella Michelin en 2015, 2016 y 2017.
+                                Posee huerto propio donde cultiva hortalizas, frutales, hierbas aromáticas, viñas, olivos y trigo mallorquín de ‘xeixa’, así como cría sus propias
+                                gallinas. También utiliza especias que compra durante sus viajes de invierno. Todo esto le ha valido recibir la preciada Estrella Michelin en 2015,
+                                2016 y 2017.
                             </p>
                         </div>
                     </div>
@@ -229,24 +266,23 @@
         <div class="puesta-area puesta-3">
             <div class="container">
                 <div class="puesta-title">
-                    <h2 class="title">Nueva etapa</h2>
+                    <h2 class="title" data-splitting>Nueva etapa</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="puesta-content">
                             <img src="assets/images/puesta/puesta-7.jpg" alt="Image" />
                             <p class="desc">
-                                Aparte de seguir con su propio restaurante y sus colaboraciones habituales, desde 2022
-                                empezó su colaboración con La Alacena, dando pie a una nueva empresa de eventos y
-                                gastronomía de alto nivel.
+                                Aparte de seguir con su propio restaurante y sus colaboraciones habituales, desde 2022 empezó su colaboración con La Alacena, dando pie a una nueva
+                                empresa de eventos y gastronomía de alto nivel.
                             </p>
                             <div class="puesta-secondary-button">
                                 <a class="alacena-large-btn" href="#"> Conoce al equipo</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="puesta-wrapper">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="puesta-wrapper alacena-diplay-hide">
                             <img src="assets/images/puesta/puesta-8.jpg" alt="Image" />
                         </div>
                     </div>
@@ -255,8 +291,8 @@
         </div>
         <!--========== Puesta Section End ==============-->
 
-        <!--========== Galeria Section Start ==============-->
-        <div class="cta-area cta-3">
+        <!--========== Cta Section Start ==============-->
+        <div class="cta-3 parallax-window-15" data-parallax="scroll" data-image-src="assets/images/bg/confia-bg.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -271,28 +307,33 @@
                 </div>
             </div>
         </div>
-        <!--========== Galeria Section End ==============-->
+        <!--========== Cta Section End ==============-->
 
         <!--========== Footer Section Start ==============-->
         <div class="footer-area footer-border-top-4">
             <div class="container">
                 <div class="row br-top">
                     <div class="col-lg-3">
-                        <div class="footer-logo">
-                            <a href="index.html"> <img src="assets/images/logo.png" alt="Image" /></a>
+                        <div class="footer-logo-area d-flex align-items-center justify-content-between">
+                            <div class="footer-logo">
+                                <a href="index.html"> <img src="assets/images/logo.png" alt="Image" /></a>
+                            </div>
+                            <div class="logo-text d-none">
+                                <p class="desc">Experiencias gastronómicas a medida</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-lg-9 col-md-9">
                         <div class="footer-menu-area">
                             <div class="footer-menu text-end">
                                 <ul class="list-gap menu-list">
-                                    <li><a href="#"> Bodas</a></li>
-                                    <li><a href="#"> Corporativo</a></li>
-                                    <li><a href="#"> Particulares</a></li>
-                                    <li><a href="#"> Catering</a></li>
-                                    <li><a href="#"> Lugares</a></li>
-                                    <li><a href="#"> Nosotros</a></li>
-                                    <li><a href="#"> Galería</a></li>
+                                    <li><a href="bodas.html"> Bodas</a></li>
+                                    <li><a href="empresa.html"> Corporativo</a></li>
+                                    <li><a href="particulares.html"> Particulares</a></li>
+                                    <li><a href="catering-boras.html"> Catering</a></li>
+                                    <li><a href="lugares.html"> Lugares</a></li>
+                                    <li><a href="nosotros.html"> Nosotros</a></li>
+                                    <li><a href="galeria.html"> Galería</a></li>
                                 </ul>
                             </div>
                             <div class="footer-menu-1 text-end">
@@ -319,10 +360,10 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         <div class="copyright-left-content">
-                            <div class="copyright-target">La Alacena de Andreu Genestra 2023©</div>
+                            <div class="copyright-target">La Alacena de Genestra 2023©</div>
                             <div class="copyright-left-menu">
                                 <ul class="menu list-gap">
-                                    <li class="dots"><a href="#"> Política de privacidad</a></li>
+                                    <li class="dots"><a href="#"> privacidad</a></li>
                                     <li class="dots"><a href="#"> Cookies </a></li>
                                     <li><a href="#"> Créditos </a></li>
                                 </ul>
@@ -367,16 +408,77 @@
         </div>
         <!--========== Footer Section End ==============-->
 
+        <!--Sc Offcanvas Area Start-->
+        <div id="alacena-overlay" class="alacena-overlay"></div>
+        <div class="alacena-offcanvas-area">
+            <div class="alacena-header d-flex align-items-center justify-content-between">
+                <div class="footer-logo text-center"></div>
+                <div class="offcanvas-icon">
+                    <a id="canva_close" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="25px" height="25px">
+                            <path
+                                d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"
+                            />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Canvas Mobile Menu start -->
+            <nav class="right_menu_togle mobile-navbar-menu" id="mobile-navbar-menu">
+                <ul class="list-gap nav-menu sc-mb-45 sc-pl-0">
+                    <li class="menu-item-has-children">
+                        <a href="bodas.html"> Bodas</a>
+                    </li>
+                    <li>
+                        <a href="empresa.html"> Corporativo</a>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="particulares.html"> Particulares</a>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="catering-boras.html"> Catering</a>
+                        <ul class="list-gap sub-menu-list">
+                            <li><a href="catering-boras.html">Catering Boras</a></li>
+                            <li><a href="catering-corporativo.html">Catering Corporativo</a></li>
+                            <li><a href="catering-general.html">Catering General</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="lugares.html"> Lugares</a>
+                        <ul class="list-gap sub-menu-list">
+                            <li><a href="lugares.html">Lugares</a></li>
+                            <li><a href="lugares-bendinat.html">Lugares Bendinat</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="nosotros.html">Nosotros</a>
+                        <ul class="list-gap sub-menu-list">
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="nosotros-andre.html">Nosotros Andre</a></li>
+                            <li><a href="nosotros-equipo.html">Nosotros Equipo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <nav class="right_menu_togle mobile-navbar-menu mobile-navbar-menu-1" id="mobile-navbar-menu">
+                <ul class="list-gap nav-menu sc-mb-45 sc-pl-0">
+                    <li><a href="index.html">Español</a></li>
+                    <li><a href="index.html">Catalán</a></li>
+                    <li><a href="index.html">Inglés</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--Sc Offcanvas Area End-->
+
         <!-- start scrollUp  -->
         <div class="alacena-scroll-top progress-done">
             <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
                 <path
                     d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-                    style="
-                        transition: stroke-dashoffset 10ms linear 0s;
-                        stroke-dasharray: 307.919px, 307.919px;
-                        stroke-dashoffset: 71.1186px;
-                    "
+                    style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919px, 307.919px; stroke-dashoffset: 71.1186px"
                 ></path>
             </svg>
             <div class="alacena-scroll-top-icon">
@@ -390,10 +492,7 @@
                     data-icon="mdi:arrow-up"
                     class="iconify iconify--mdi"
                 >
-                    <path
-                        fill="currentColor"
-                        d="M13 20h-2V8l-5.5 5.5l-1.42-1.42L12 4.16l7.92 7.92l-1.42 1.42L13 8v12Z"
-                    ></path>
+                    <path fill="currentColor" d="M13 20h-2V8l-5.5 5.5l-1.42-1.42L12 4.16l7.92 7.92l-1.42 1.42L13 8v12Z"></path>
                 </svg>
             </div>
         </div>
@@ -413,12 +512,12 @@
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
         <!-- Swiper.min js -->
         <script src="assets/js/swiper.min.js"></script>
-        <!-- appear js -->
-        <script src="assets/js/jquery.appear.min.js"></script>
-        <!-- odometer js -->
-        <script src="assets/js/odometer.min.js"></script>
-        <!-- sal js -->
-        <script src="assets/js/sal.js"></script>
+        <script src="assets/js/splitting.js"></script>
+        <script src="assets/js/splitting-out.js"></script>
+        <!-- Slick.min js -->
+        <script src="assets/js/slick.min.js"></script>
+        <!-- parallax js -->
+        <script src="assets/js/parallax.min.js"></script>
         <!-- main js -->
         <script src="assets/js/main.js"></script>
     </body>

@@ -3,23 +3,26 @@
     .catering-title {
         margin-bottom: 40px;
     }
-    .catering-content-area {
-        position: relative;
-        .catering-wrapper {
-            margin-bottom: 105px;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            .wrapper-group {
-                margin-right: 25px;
-                &:last-child {
-                    margin-right: 0;
-                }
-            }
-            .wrapper-2 {
-                position: relative;
-                margin-top: 100px;
-            }
+    position: relative;
+    .wrapper-group {
+        margin-right: 25px;
+        &:last-child {
+            margin-right: 0;
         }
+    }
+    .wrapper-1,
+    .wrapper-2,
+    .wrapper-3 {
+        margin-bottom: 25px;
+        margin-right: 15px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    .wrapper-2 {
+        position: relative;
+        margin-top: 100px;
+        margin-bottom: 95px;
     }
 }
 .catering-1 {
@@ -142,4 +145,12 @@
 }
 .mucho_two {
     margin-bottom: 40px;
+}
+
+// alacena-slider-group
+.alacena-slider-group {
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
 }

@@ -12,6 +12,12 @@
     padding-bottom: 125px;
     .title {
         margin-bottom: 45px;
+        color: $titleColor;
+        display: block;
+        transition: 0.4s;
+        &:hover {
+            color: #b76c1c;
+        }
     }
 }
 .visitar-item {

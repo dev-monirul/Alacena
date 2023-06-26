@@ -4,6 +4,11 @@
         margin-bottom: 80px;
         .title {
             margin-bottom: 35px;
+            color: $titleColor;
+            transition: 0.4s;
+            &:hover {
+                color: #e5ac0e;
+            }
         }
         .desc {
             max-width: 535px;
