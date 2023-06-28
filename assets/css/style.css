@@ -2607,7 +2607,7 @@ body .modal-backdrop {
   right: 0;
   bottom: 0;
   width: 400px;
-  z-index: 9999;
+  z-index: 99999;
   background: #fff;
   padding: 30px 30px 30px;
   right: -450px;
@@ -2620,7 +2620,6 @@ body .modal-backdrop {
 .alacena-offcanvas-area .alacena-header {
   border-bottom: 1px solid #b76c1c;
   padding-bottom: 50px;
-  margin-bottom: 20px;
 }
 .alacena-offcanvas-area .alacena-header .offcanvas-title .product-title {
   font-weight: 500;
@@ -2659,6 +2658,8 @@ body .modal-backdrop {
 
 .mobile-navbar-menu {
   padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .mobile-navbar-menu .nav-menu li {
@@ -2669,14 +2670,19 @@ body .modal-backdrop {
   display: block;
   color: #090b1a;
   padding: 10px 0;
-  line-height: 40px;
+  line-height: 36px;
   font-size: 16px;
   text-transform: uppercase;
   transition: 0.4s;
   width: 100%;
   font-family: "Josefin Sans", sans-serif;
 }
-
+.mb-language .nav-menu li a {
+  line-height: 18px;
+}
+.mb-language .nav-menu li a.active{
+  color: #b76c1c;
+}
 .mobile-navbar-menu .nav-menu li a:hover {
   color: #b76c1c;
 }
@@ -2916,10 +2922,11 @@ body .modal-backdrop {
     right: 20px;
   }
   .tabs-slider-area .prev-arrow {
-    left: 20px;
+    left: 40px;
+    bottom: 120px;
   }
   .tabs-slider-area .next-arrow {
-    right: 20px;
+    right: 40px;
   }
   .select-active-bodas .dropdown-toggle::after {
     right: 20px;
@@ -2994,6 +3001,7 @@ body .modal-backdrop {
   }
   .sc-search-box {
     display: block !important;
+    margin-top: 30px;
   }
   .alacena-logo img {
     max-width: 250px;
@@ -3151,7 +3159,7 @@ body .modal-backdrop {
     padding-top: 120px;
   }
   .mucho-area.mucho_two {
-    margin-bottom: 75px;
+    margin-bottom: 0;
   }
   .aperitivo_two {
     padding-bottom: 220px;
@@ -3239,7 +3247,8 @@ body .modal-backdrop {
   }
   .cta-area {
     padding-top: 260px;
-    min-height: 850px;
+    min-height: 800px;
+    background-image: url(../images/mobile/cta-bg.png) !important;
   }
   .clasico-area .clasico-left-content .desc {
     margin-bottom: 50px;
@@ -3283,10 +3292,15 @@ body .modal-backdrop {
     border-top: 1px solid rgb(112, 112, 112);
     padding-top: 30px;
   }
+  .footer-logo-area .logo-text p {
+    position: relative;left: -30px;
+  }
   .copyright-right-content {
     display: block;
-    border-top: 1px solid rgb(112, 112, 112);
-    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .copyright-right-content .menu-link li:nth-child(2){
+    margin-left: -40px;
   }
   .footer-menu-area .footer-menu-1 {
     text-align: start !important;
@@ -3327,7 +3341,8 @@ body .modal-backdrop {
     position: relative;
   }
   .copyright-social {
-    margin-bottom: 25px;
+    border-top: 1px solid rgb(112, 112, 112);
+    padding-top: 30px;
   }
   .carino-area .carino-left-wrapper.carino_wrapper_2 {
     display: block !important;
@@ -3367,18 +3382,110 @@ body .modal-backdrop {
   }
   .nuestra-item img {
     width: 100%;
+    height: 450px;
   }
-  .alacena-primary-btn {
-    border: none;
-    min-width: 0;
-  }
+  
   .alacena-primary-btn:hover {
     background-color: transparent;
     color: #ffffff;
   }
   .nuestro-title .title {
     font-size: 90px;
+    padding-right: 20px;
   }
+  .nuestro-bg{
+    min-height: 800px;
+    padding-top: 330px;
+    background-image: url(../images/mobile/mb-nuestro-bg.png) !important;
+  }
+  .bodas-area .parallax-window-4{
+    height: 560px;
+  }
+  .bodas-bottom-content .desc, .catering-bottom-content .desc, .puesta-area .puesta-content .desc, .completamos-area .completamos-content .desc, .carino-area .carino-right-content .desc, .lugares-area .lugares-content .desc, .mucho-area .desc, .aperitivo-area .aperitivo-left-content .desc, .diversos-area .diversos-title .desc{
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .completamos-area .completamos-content .desc{
+    padding-top: 30px;
+  }
+  .carino-area .carino-right-content .sub-title{
+    font-size: 14px;
+  }
+  .bodas-1 .parallax-window{
+    height: 560px;
+  }
+  .completamos-title .title{
+    margin-bottom: 40px;
+    padding-right: 15px;
+  }
+  .galeria-slider_1 .galeria-title{
+    margin-bottom: 40px;
+  }
+  .bodas-2 .bodas-top-content .title{
+    font-size: 70px;
+    margin-bottom: 30px;
+  }
+  .bodas-2 .bodas-top-content .desc{
+    font-size: 12px;
+  }
+  .bodas-2 .bodas-top-content{
+    margin-bottom: 50px;
+  }
+  .bodas-2 .parallax-window-20{
+    min-height: 560px;
+    background-image: url(../images/mobile/mb-particulares-bg.png);
+  }
+  .cta-2.parallax-window-22{
+    min-height: 800px;
+    background-image: url(../images/mobile/mb-cta-3.png) !important;
+  }
+  .bodas-8 .bodas-top-content .desc{
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .bodas-8 .parallax-window-10, .bodas-7 .parallax-window-9{
+    min-height: 560px;
+  }
+  .cuidamos-area .cuidamos-title .title{
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .tabs-slider-area .next-arrow{
+    bottom: 120px;
+  }
+  .alacena-large-btn{
+    width: 100%;
+  }
+  .bodas-7 .sub-title{
+    font-size: 16px;
+  }
+  .bodas-7.bodas-corporativo .desc{
+    font-size: 13px;
+  }
+.corporativo-bodas-top-content .desc{
+  font-size: 13px;
+}
+.diversos-item .desc, .diversos-item .desc_1{
+  max-width: 300px;
+}
+.cta-4 .cta-content .title{
+  font-size: 65px;
+}
+.cta-4{
+  min-height: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
   .ambientacion-area .section-heading .title {
     font-size: 65px;
   }
@@ -3493,15 +3600,16 @@ body .modal-backdrop {
   .completamos-area .completamos-content .desc {
     margin-top: 10px;
     max-width: 100%;
+    margin-bottom: 50px;
   }
   .completamos-area .completamos-title {
-    margin-bottom: 35px;
+    margin-bottom: 0px;
   }
   .galeria-top-title .title {
     font-size: 60px;
   }
   .galeria-title .title {
-    font-size: 50px;
+    font-size: 60px;
   }
   .tabs-slider-area.tabs-slider-1 .tabs-title .title {
     font-size: 50px;
