@@ -118,6 +118,7 @@ textarea:focus {
   display: block;
   margin-bottom: 20px;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .primary-color {
@@ -368,6 +369,20 @@ textarea:focus {
   font-size: 12px;
   text-transform: uppercase;
   transition: 0.4s;
+  position: relative;
+}
+.alacena-main-menu .main-menu li a.active::after, .alacena-top-menu .top-menu li a.active_contact:after{
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 1px;
+  background-color: #b76c1c;
+  content: "";
+}
+.alacena-top-menu .top-menu li a.active_contact{
+  color: #b76c1c;
+  position: relative;
 }
 .alacena-main-menu .main-menu li a:hover {
   color: #b76c1c;
@@ -597,6 +612,7 @@ body .modal-backdrop {
   font-size: 21px;
   max-width: 570px;
   margin-bottom: 65px;
+  letter-spacing: 2px;
 }
 
 .ambientacion-area {
@@ -636,8 +652,9 @@ body .modal-backdrop {
 }
 .ambientacion-content .ambientacion-desc {
   font-size: 21px;
-  max-width: 375px;
+  max-width: 445px;
   margin-bottom: 65px;
+  letter-spacing: 2px;
 }
 
 .confia-area {
@@ -651,8 +668,9 @@ body .modal-backdrop {
 
 .confia-right-content .confia-desc {
   font-size: 21px;
-  max-width: 350px;
+  max-width: 425px;
   margin: 0 auto;
+  letter-spacing: 2px;
 }
 .confia-right-content .desc-1 {
   margin-top: 25px;
@@ -695,6 +713,7 @@ body .modal-backdrop {
   display: inline-block;
   text-align: center;
   transition: 0.4s;
+  letter-spacing: 2px;
 }
 .contacto-area .form-button button:hover {
   border-color: #e5ac0e;
@@ -790,7 +809,7 @@ body .modal-backdrop {
 .select-active-bodas .dropdown-toggle::after {
   content: "\e902";
   font-family: "icomoon" !important;
-  right: 100px;
+  right: 20px;
   font-size: 8px;
   top: 10px;
   position: absolute;
@@ -818,6 +837,7 @@ body .modal-backdrop {
   color: #0d0d0d;
   transition: 0.4s;
   font-size: 18px;
+  letter-spacing: 2px;
 }
 .map-area .contact-content-area .map-contact ul li a:hover {
   color: #b76c1c;
@@ -876,9 +896,11 @@ body .modal-backdrop {
 }
 .blog-area .blog-item .desc_1 {
   margin-bottom: 28px;
+  letter-spacing: 2px;
 }
 .blog-area .blog-item .desc-1 {
   max-width: 360px;
+  letter-spacing: 2px;
 }
 .blog-area .blog-item .blog-content {
   margin-top: 30px;
@@ -886,6 +908,7 @@ body .modal-backdrop {
 .blog-area .blog-item .blog-content .date {
   font-size: 14px;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .blog-area .blog-item .blog-content .title-link {
   color: #0d0d0d;
@@ -903,6 +926,7 @@ body .modal-backdrop {
   color: #0d0d0d;
   transition: 0.4s;
   position: relative;
+  letter-spacing: 2px;
 }
 .blog-area .blog-item .blog-content .blog-link::before {
   position: absolute;
@@ -957,6 +981,7 @@ body .modal-backdrop {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 .tabs-slider-area .product-grid {
   width: 645px;
@@ -1022,7 +1047,15 @@ body .modal-backdrop {
 .tabs-slider-2 {
   padding-bottom: 275px;
 }
-
+.tabs-slider-2 .tabs-content-inner{
+  margin-bottom: 50px;
+}
+.tabs-slider-2 .tabs-content-inner .tabs-content{
+  padding-top: 45px;
+}
+.tabs-slider-2 .tabs-content-inner h2{
+  margin-bottom: 0;
+}
 .tabs-slider-3 {
   padding-bottom: 155px;
 }
@@ -1048,7 +1081,8 @@ body .modal-backdrop {
 .tabs-slider-4 .nav-tabs .nav-link {
   margin-right: 50px;
   margin-left: 0;
-  font-weight: 500;
+  font-weight: 400;
+  letter-spacing: 2px;
 }
 .tabs-slider-4 .slick-next,
 .tabs-slider-4 .slick-prev {
@@ -1101,6 +1135,7 @@ body .modal-backdrop {
 .bodas-3 .sub-desc {
   font-size: 14px;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .bodas-3 .bodas-top-content {
   margin-bottom: 130px;
@@ -1125,14 +1160,21 @@ body .modal-backdrop {
   display: inline-block;
   font-size: 12px;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .bodas-4 .bodas-text ul li a {
   transition: 0.4s;
   color: #b76c1c;
+  letter-spacing: 2px;
 }
 
 .bodas-5 {
   padding-bottom: 145px;
+}
+.bodas-top-content .desc {
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 2px;
 }
 .bodas-5 .parallax-window-13 {
   min-height: 740px;
@@ -1147,19 +1189,31 @@ body .modal-backdrop {
   margin-bottom: 65px;
 }
 .bodas-5 .bodas-top-content .title {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 .bodas-5 .lugares-form {
   position: relative;
   top: 14px;
+  justify-content: space-between;
+}
+.bodas-5 .lugares-form .select-active-bodas{
+  max-width: 227px;
+  padding: 10px 0;
 }
 .bodas-5 .lugares-form .form-input {
   position: relative;
+  max-width: 227px;
+  width: 100%;
 }
 .bodas-5 .lugares-form .form-input input {
   border-bottom: 1px solid #0d0d0d;
   font-size: 16px;
   text-transform: uppercase;
+  width: 100%;
+  padding: 10px 0;
+}
+.bodas-5 .lugares-form .form-input input::placeholder{
+  font-size: 16px;
 }
 .bodas-5 .lugares-form .form-input i {
   position: absolute;
@@ -1173,9 +1227,7 @@ body .modal-backdrop {
   transition: 0.4s;
   color: #b76c1c;
 }
-.bodas-5 .form-mr {
-  margin-right: 55px;
-}
+
 .bodas-5 .lugares-button .padding-1 {
   padding-left: 15px;
 }
@@ -1209,6 +1261,7 @@ body .modal-backdrop {
   display: inline-block;
   font-size: 12px;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .bodas-6 .bodas-text ul li a {
   transition: 0.4s;
@@ -1220,9 +1273,11 @@ body .modal-backdrop {
 .bodas-6 .bodas-title .title {
   font-size: 36px;
   font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 2px;
 }
 .bodas-6 .left-desc {
   max-width: 450px;
+  letter-spacing: 2px;
 }
 .bodas-6 .castillo-text .castillo-list li {
   text-transform: uppercase;
@@ -1257,9 +1312,12 @@ body .modal-backdrop {
   color: #b76c1c;
   display: block;
   margin-bottom: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 .bodas-7 .desc {
   font-size: 15px;
+  letter-spacing: 2px;
 }
 .bodas-7 .bodas-text {
   margin-bottom: 20px;
@@ -1268,6 +1326,7 @@ body .modal-backdrop {
   display: inline-block;
   font-size: 12px;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .bodas-7 .bodas-text ul li a {
   transition: 0.4s;
@@ -1299,6 +1358,8 @@ body .modal-backdrop {
   font-size: 14px;
   text-transform: uppercase;
   color: #b76c1c;
+  letter-spacing: 2px;
+  line-height: 24px;
 }
 
 .bodas-bottom-content {
@@ -1308,6 +1369,7 @@ body .modal-backdrop {
 .bodas-bottom-content .desc {
   font-size: 21px;
   margin-bottom: 35px;
+  letter-spacing: 2px;
 }
 
 .catering-area {
@@ -1364,13 +1426,18 @@ body .modal-backdrop {
 .catering-bottom-content .desc {
   font-size: 21px;
   margin-bottom: 60px;
+  letter-spacing: 2px;
 }
 
 .catering-text-area {
   padding-bottom: 205px;
 }
+.catering-text-area .catering-content .title{
+  margin-bottom: 40px;
+}
 .catering-text-area .catering-content .desc {
-  max-width: 530px;
+  max-width: 650px;
+  letter-spacing: 2px;
 }
 
 .clasico-area {
@@ -1385,6 +1452,7 @@ body .modal-backdrop {
 .clasico-area .clasico-left-content .desc {
   max-width: 480px;
   margin-bottom: 117px;
+  letter-spacing: 2px;
 }
 
 .aperitivo-area {
@@ -1396,6 +1464,7 @@ body .modal-backdrop {
 .aperitivo-area .aperitivo-left-content .desc {
   max-width: 585px;
   margin-top: 75px;
+  letter-spacing: 2px;
 }
 
 .aperitivo_two {
@@ -1412,7 +1481,8 @@ body .modal-backdrop {
   margin-bottom: 35px;
 }
 .estaciones-area .estaciones-title .desc {
-  max-width: 470px;
+  max-width: 537px;
+  letter-spacing: 2px;
 }
 .estaciones-area .estaciones-wrapper {
   margin-bottom: 70px;
@@ -1434,6 +1504,7 @@ body .modal-backdrop {
 }
 .estaciones-two .estaciones-desc {
   margin-top: 60px;
+  letter-spacing: 2px;
 }
 
 .mucho-area {
@@ -1446,8 +1517,9 @@ body .modal-backdrop {
   margin-bottom: 70px;
 }
 .mucho-area .desc {
-  max-width: 625px;
+  max-width: 760px;
   margin-bottom: 70px;
+  letter-spacing: 2px;
 }
 
 .mucho_two {
@@ -1467,7 +1539,8 @@ body .modal-backdrop {
 }
 .puesta-area .puesta-content .desc {
   margin-top: 75px;
-  max-width: 425px;
+  max-width: 538px;
+  letter-spacing: 2px;
 }
 
 .puesta-1 {
@@ -1510,6 +1583,7 @@ body .modal-backdrop {
   font-size: 18px;
   display: block;
   margin-bottom: 25px;
+  letter-spacing: 2px;
 }
 .carino-area .carino-right-content .carino-title {
   font-size: 90px;
@@ -1518,7 +1592,8 @@ body .modal-backdrop {
 }
 .carino-area .carino-right-content .desc {
   margin-bottom: 60px;
-  max-width: 440px;
+  max-width: 537px;
+  letter-spacing: 2px;
 }
 
 .lugares-area {
@@ -1531,7 +1606,8 @@ body .modal-backdrop {
   margin-bottom: 60px;
 }
 .lugares-area .lugares-content .desc {
-  max-width: 500px;
+  max-width: 556px;
+  letter-spacing: 2px;
 }
 .lugares-area .lugares-content .lugares-secondary-button {
   margin-top: 75px;
@@ -1544,7 +1620,8 @@ body .modal-backdrop {
   padding-left: 55px;
 }
 .lugares-2 .lugares-content .desc {
-  max-width: 480px;
+  max-width: 598px;
+  letter-spacing: 2px;
 }
 .lugares-2 .lugares-wrapper {
   margin-bottom: 80px;
@@ -1559,6 +1636,10 @@ body .modal-backdrop {
 
 .lugares-3 {
   padding-bottom: 280px;
+}
+.lugares-3 .lugares-content .desc{
+  letter-spacing: 2px;
+  max-width: 600px;
 }
 .lugares-3 .lugares-content .lugares-secondary-button {
   margin-top: 45px;
@@ -1642,7 +1723,7 @@ body .modal-backdrop {
   height: 500px;
 }
 .galeria-slider-area .galeria-title {
-  margin-bottom: 8px;
+  margin-bottom: 30px;
 }
 
 .galeria-slider-1 {
@@ -1653,7 +1734,7 @@ body .modal-backdrop {
   margin-bottom: 15px;
 }
 .galeria-slider_1 .galeria-title {
-  margin-bottom: 160px;
+  margin-bottom: 100px;
 }
 
 .tabs-slider-1 {
@@ -1684,6 +1765,9 @@ body .modal-backdrop {
 .galeria-video-area {
   padding-top: 140px;
 }
+.galeria-video-area .title {
+  margin-bottom: 40px;
+}
 .galeria-video-area .video-wrapper {
   position: relative;
 }
@@ -1713,7 +1797,8 @@ body .modal-backdrop {
 .completamos-area .completamos-content .desc {
   margin-top: 70px;
   margin-bottom: 0;
-  max-width: 435px;
+  max-width: 515px;
+  letter-spacing: 2px;
 }
 
 .completamos-1 {
@@ -1776,8 +1861,11 @@ body .modal-backdrop {
 }
 .cta-4 .cta-content .title {
   font-size: 100px;
+  margin-bottom: 50px;
 }
-
+.cta-4 .cta-content .desc{
+  max-width: 575px;
+}
 .cta-5 {
   background-position: center;
   background-repeat: no-repeat;
@@ -1792,23 +1880,43 @@ body .modal-backdrop {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 5px;
-  padding-top: 245px;
+  padding-top: 150px;
   padding-bottom: 165px;
   min-height: 590px;
 }
+.cta-6 h1 {
+  font-size: 80px;
+  line-height: 80px;
+  max-width: 623px;
+}
+
+.cta-6 .cta-content {
+  padding-top: 90px;
+}
 .cta-6 .cta-title {
   position: relative;
-  margin-top: -80px;
 }
 
 .cta-content .title {
   margin-bottom: 25px;
 }
 .cta-content .desc {
-  max-width: 400px;
+  max-width: 460px;
   margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+.cta-3.lugares-cta .title {
+  margin-bottom: 50px;
 }
 
+.cta-3.lugares-cta .desc {
+  max-width: 575px;
+}
+.cta-5 p.desc {
+  max-width: 575px;
+}
+
+.cta-5 .title {margin-bottom: 60px;}
 .client-area {
   padding-top: 20px;
   padding-bottom: 170px;
@@ -1860,6 +1968,7 @@ body .modal-backdrop {
   color: #0d0d0d;
   transition: 0.4s;
   font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 2px;
 }
 .equipo-item .equipo-content .equipo-link:hover {
   color: #b76c1c;
@@ -1867,10 +1976,12 @@ body .modal-backdrop {
 .equipo-item .equipo-content .mail-desc {
   font-size: 21px;
   margin-bottom: 0;
+  letter-spacing: 2px;
 }
 .equipo-item .equipo-content .desc {
   font-size: 18px;
   margin-bottom: 0;
+  letter-spacing: 2px;
 }
 .equipo-item .equipo-content .equipo-mail {
   color: #0d0d0d;
@@ -1896,6 +2007,9 @@ body .modal-backdrop {
 .diversos-area .diversos-title {
   margin-bottom: 80px;
 }
+.diversos-area .diversos-title h2 {
+  margin-bottom: 30px;
+}
 .diversos-area .diversos-title .title {
   margin-bottom: 35px;
   color: #0d0d0d;
@@ -1905,7 +2019,8 @@ body .modal-backdrop {
   color: #e5ac0e;
 }
 .diversos-area .diversos-title .desc {
-  max-width: 535px;
+  max-width: 650px;
+  letter-spacing: 2px;
 }
 .diversos-area .alacena-secondary-btn {
   font-size: 14px;
@@ -1944,14 +2059,16 @@ body .modal-backdrop {
 }
 .diversos-item .desc {
   font-size: 18px;
-  max-width: 240px;
+  max-width: 293px;
+  letter-spacing: 2px;
 }
 .diversos-item .desc_1 {
   margin-bottom: 73px;
   max-width: 290px;
+  letter-spacing: 2px;
 }
 .diversos-item .desc-1 {
-  max-width: 345px;
+  max-width: 290px;
 }
 .diversos-item .ver-link {
   font-size: 14px;
@@ -2004,6 +2121,9 @@ body .modal-backdrop {
   max-width: 680px;
   padding-bottom: 125px;
 }
+.visitar-header .desc {
+  letter-spacing: 2px;
+}
 .visitar-header .title {
   margin-bottom: 45px;
   color: #0d0d0d;
@@ -2026,6 +2146,10 @@ body .modal-backdrop {
   transition: 0.4s;
   font-family: "Josefin Sans", sans-serif;
   color: #0d0d0d;
+  letter-spacing: 2px;
+}
+.visitar-item h6 {
+  margin-bottom: 15px;
 }
 .visitar-item .visitar-content .title-link:hover {
   color: #b76c1c;
@@ -2056,6 +2180,7 @@ body .modal-backdrop {
 }
 .visitar-item .visitar-1 .desc {
   max-width: 300px;
+  letter-spacing: 1px;
 }
 .visitar-item .visitar-4 {
   padding-left: 39px;
@@ -2097,9 +2222,17 @@ body .modal-backdrop {
   font-size: 16px;
   text-transform: uppercase;
   color: #0d0d0d;
-  transition: 0.4s;
   display: inline-block;
   border-bottom: 1px solid #0d0d0d;
+  transition: 0.4s;
+  transition: all ease-in-out .4s;
+  -webkit-transition: all ease-in-out .4s;
+  -moz-transition: all ease-in-out .4s;
+  -ms-transition: all ease-in-out .4s;
+  -o-transition: all ease-in-out .4s;
+}
+.cargas-link .cargas:hover{
+  opacity: .5 !important;
 }
 
 .gallery-area {
@@ -2141,7 +2274,9 @@ body .modal-backdrop {
   color: #0d0d0d;
   font-family: "Josefin Sans", sans-serif;
   transition: 0.4s;
-  margin-bottom: 0;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+  display: inline-block;
 }
 .departamentos-item .title-link:hover {
   color: #b76c1c;
@@ -2236,6 +2371,7 @@ body .modal-backdrop {
   color: #0d0d0d;
   font-size: 14px;
   transition: 0.4s;
+  text-transform: uppercase;
 }
 .footer-menu-1 .menu-list li a:hover {
   color: #b76c1c;
@@ -2371,6 +2507,7 @@ body .modal-backdrop {
   min-width: 190px;
   display: inline-block;
   text-align: center;
+  letter-spacing: 2px;
 }
 .alacena-primary-btn:hover {
   border-color: #e5ac0e;
@@ -2387,6 +2524,7 @@ body .modal-backdrop {
   padding: 0 45px;
   display: inline-block;
   text-align: center;
+  letter-spacing: 2px;
 }
 .alacena-secondary-btn:hover {
   border-color: #e5ac0e;
@@ -2404,6 +2542,7 @@ body .modal-backdrop {
   text-align: center;
   display: inline-block;
   text-align: center;
+  letter-spacing: 2px;
 }
 .alacena-large-btn:hover {
   border-color: #e5ac0e;
