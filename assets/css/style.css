@@ -836,7 +836,7 @@ body .modal-backdrop {
 .map-area .contact-content-area .map-contact ul li a {
   color: #0d0d0d;
   transition: 0.4s;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 2px;
 }
 .map-area .contact-content-area .map-contact ul li a:hover {
@@ -2963,7 +2963,7 @@ body .modal-backdrop {
   }
   .blog-area .blog-item .video-img {
     min-width: 520px;
-    min-height: 475px;
+    min-height: 450px;
   }
   .blog-area .blog-content-1 .blog-item .video-img {
     min-width: 520px;
@@ -3263,7 +3263,7 @@ body .modal-backdrop {
   }
   .blog-area .blog-title {
     padding-left: 0;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
     margin-top: 50px;
   }
   .blog-area .blog-item .video-img {
@@ -3278,6 +3278,9 @@ body .modal-backdrop {
   }
   .blog-area .blog-content-1 .blog-item .video-img {
     padding-left: 0;
+    min-width: 100%;
+    height: 450px !important;
+    min-height: auto;
   }
   .footer-menu-area .footer-menu {
     text-align: start !important;
@@ -3443,8 +3446,11 @@ body .modal-backdrop {
     font-size: 13px;
     line-height: 21px;
   }
-  .bodas-8 .parallax-window-10, .bodas-7 .parallax-window-9{
+  .bodas-8 .parallax-window-10, .bodas-7 .parallax-window-9, .bodas-3 .parallax-window-17, .bodas-4 .parallax-window-18{
     min-height: 560px;
+  }
+  .bodas-4 .parallax-window-18{
+    background-image: url(../images/mobile/mb-bodas-3.png) !important;
   }
   .cuidamos-area .cuidamos-title .title{
     font-size: 50px;
@@ -3474,10 +3480,62 @@ body .modal-backdrop {
 .cta-4{
   min-height: 800px;
 }
-
-
-
-
+.blog-area .title {
+  font-size: 75px;
+}
+.blog-area .blog-item .video-area .popup-videos-button i{
+  height: 109px;
+  width: 109px;
+  line-height: 109px;
+}
+.blog-area .blog-item .blog-content .date{
+  font-size: 12px;
+}
+.blog-area .blog-item .blog-content h6{
+  font-size: 36px;
+}
+.blog-area .blog-item .blog-content .blog-link:hover::before{
+  width: 0;
+}
+.blog-area .blog-item .blog-content .blog-link::before {
+  width: 100%;
+}
+.blog-area .blog-item .desc_1{
+  font-size: 18px;
+  line-height: 24px;
+}
+.bodas-3 .bodas-top-content{
+  margin-bottom: 60px;
+}
+.bodas-3 .parallax-window-17{
+  background-image: url(../images/mobile/mb-bodas-2.png) !important;
+}
+.cta-3{
+  min-height: 800px;
+  padding-top: 150px;
+}
+.equipo-item .equipo-content .equipo-link{
+  margin-bottom: 12px;
+  display: block;
+}
+.equipo-item .equipo-content h6{
+  margin-bottom: 0;
+}
+.equipo-item .equipo-content .mail-desc{
+  font-size: 18px;
+}
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 22px;
+}
+.bodas-5 .lugares-form .form-input, .bodas-5 .lugares-form .select-active-bodas, .bodas-area.bodas-5 .alacena-secondary-btn{
+  max-width: 160px;
+}
+.bodas-5 .lugares-button{
+  justify-content: space-between !important;
+}
+.bodas-area.bodas-5 .alacena-secondary-btn{
+  line-height: 20px;
+}
 
 
 
@@ -3617,6 +3675,8 @@ body .modal-backdrop {
   .bodas-area.bodas-5 .alacena-secondary-btn {
     padding: 0 20px;
     font-size: 12px;
+    display: flex;
+    align-items: center;
   }
   .visitar-header .title {
     font-size: 60px;
@@ -3652,9 +3712,7 @@ body .modal-backdrop {
   .bodas-6 .bodas-title .title {
     font-size: 24px;
   }
-  .bodas-area.bodas-4 .bodas-top-content .title {
-    font-size: 95px;
-  }
+  
   .completamos-area.completamos-1 .completamos-content img,
   .puesta-area.puesta-1 .puesta-content img,
   .puesta-area.puesta-3 .puesta-content img,
@@ -3761,12 +3819,5 @@ body .modal-backdrop {
   }
   .alacena-diplay-hide-1 {
     display: none !important;
-  }
-}
-/*medium mobile device*/
-@media only screen and (max-width: 480px) {
-  .bodas-area.bodas-5 .alacena-secondary-btn {
-    padding: 0 10px;
-    font-size: 12px;
   }
 }
