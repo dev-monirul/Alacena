@@ -615,6 +615,9 @@
     .bodas-6 .bodas-text ul.list-gap{
         line-height: 18px;
     }
+    .contact-fea-img img{
+        height: 550px;
+    }
     
 
 }
@@ -666,8 +669,9 @@
         padding-top: 330px;
         background-image: url(../images/mobile/mb-nuestro-bg.png) !important;
     }
-    .bodas-area .parallax-window-4 {
+    .bodas-area .parallax-window-4, .bodas-7 .parallax-window-7 {
         height: 560px;
+        min-height: 560px;
     }
     .bodas-bottom-content .desc,
     .catering-bottom-content .desc,
@@ -732,7 +736,9 @@
     .bodas-8 .parallax-window-10,
     .bodas-7 .parallax-window-9,
     .bodas-3 .parallax-window-17,
-    .bodas-4 .parallax-window-18 {
+    .bodas-4 .parallax-window-18,
+    .bodas-5 .parallax-window-14,
+    .bodas-4 .parallax-window-19 {
         min-height: 560px;
     }
     .bodas-4 .parallax-window-18 {

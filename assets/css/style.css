@@ -687,17 +687,27 @@ body .modal-backdrop {
 .contacto-area .contacto-form label {
     font-size: 18px;
 }
-.contacto-area .contacto-form input {
-    border-bottom: 1px solid rgb(112, 112, 112);
+
+.contacto-area .contacto-form input, .contacto-area .textarea-form textarea {
+    border-bottom: 1px solid #707070;
     width: 100%;
-}
-.contacto-area .textarea-form label {
     font-size: 18px;
+    color: #0D0D0D;
+    letter-spacing: 2px;
+    padding: 10px 0 30px 0;
 }
-.contacto-area .textarea-form textarea {
-    border-bottom: 1px solid rgb(112, 112, 112);
-    color: #0d0d0d;
+.contacto-area .contacto-form input::placeholder, .contacto-area .textarea-form textarea::placeholder{
+    font-size: 18px;
+    color: #0D0D0D;
+    letter-spacing: 2px;
+}
+.contacto-area .textarea-form textarea{
+    height: 160px;
+}
+.contact-fea-img img {
     width: 100%;
+    height: 620px;
+    object-fit: cover;
 }
 .contacto-area .form-button {
     margin-top: 65px;
