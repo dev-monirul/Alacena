@@ -1,0 +1,1084 @@
+
+@media only screen and (min-width: 600px) {
+    .particulares-slider .single-slide {
+        margin-left: 30px;
+    }
+    .particulares-slider .slick-track {
+        margin-left: -30px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .container {
+        max-width: 1335px;
+    }
+}
+@media only screen and (max-width: 1720px) {
+    .tabs-slider-area .nav-tabs .nav-link {
+        margin-left: 30px;
+    }
+    .tabs-slider-4 .nav-tabs .nav-link {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 1520px) {
+    .tabs-slider-area .tabs-content-inner {
+        padding: 0 100px;
+    }
+    .tabs-slider-area .prev-arrow {
+        left: 100px;
+    }
+    .tabs-slider-area .next-arrow {
+        right: 100px;
+    }
+    .tabs-slider-4 .tabs-content-inner {
+        padding: 0;
+    }
+    .swiper-button-prev {
+        left: 100px;
+    }
+    .swiper-button-next {
+        right: 100px;
+    }
+}
+/*as col-md*/
+@media only screen and (max-width: 1366px) {
+    .blog-area .blog-item .video-img {
+        min-width: 680px;
+    }
+    .blog-area .blog-content-1 .blog-item .video-img {
+        min-width: 655px;
+    }
+    .copyright-right-content .menu-link li {
+        margin-left: 10px;
+    }
+    .copyright-social .social-link li a .icon-youtube::before,
+    .copyright-social .social-link li a .icon-twiter::before,
+    .copyright-social .social-link li a .icon-intragram::before,
+    .copyright-social .social-link li a .icon-facebook::before {
+        font-size: 14px;
+    }
+    .copyright-social .social-link li {
+        margin-left: 10px;
+    }
+    .tabs-slider-area .tabs-content-inner {
+        padding: 0 80px;
+    }
+    .tabs-slider-area .tabs-wrapper img {
+        height: 400px;
+    }
+    .tabs-slider-4 .tabs-content-inner {
+        padding: 0;
+    }
+    .tabs-slider-area .next-arrow {
+        right: 80px;
+    }
+    .tabs-slider-area .prev-arrow {
+        left: 80px;
+    }
+    .carino-area .carino-right-content {
+        padding-left: 10px;
+    }
+    .nuestro-bg .title {
+        padding-left: 165px;
+        max-width: 975px;
+    }
+    .confia-right-content .alacena-primary-button {
+        padding-left: 100px;
+    }
+}
+/*as col-md*/
+@media only screen and (max-width: 1199px) {
+    .alacena-main-menu .main-menu li {
+        margin-right: 30px;
+    }
+    .tabs-slider-area .nav-tabs .nav-link {
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .tabs-slider-4 .nav-tabs .nav-link {
+        margin-left: 0;
+    }
+    .tabs-slider-area .tabs-content-inner {
+        padding: 0 30px;
+    }
+    .alacena-large-btn {
+        min-width: 465px;
+    }
+    .tabs-slider-4 .tabs-content-inner {
+        padding: 0;
+    }
+    .departamentos-item .padding-4,
+    .departamentos-item .padding-3,
+    .departamentos-item .padding-2,
+    .departamentos-item .padding-1,
+    .equipo-item .margin-3,
+    .equipo-item .margin-2,
+    .equipo-item .margin-1 {
+        padding-left: 0;
+    }
+    .galeria-slider-area .galeria-top-title {
+        padding-left: 0;
+    }
+    .galeria-video-area .video-wrapper .video-area .popup-videos-button i {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 30px;
+    }
+    .footer-menu .menu-list li {
+        margin-right: 25px;
+    }
+    .footer-menu-1 .list-6 {
+        margin-left: 50px;
+    }
+    .footer-menu-1 .list-4 {
+        margin-left: 25px;
+    }
+    .footer-menu-1 .list-5 {
+        margin-left: 25px;
+    }
+    .carino-area .carino-right-content .carino-title {
+        font-size: 70px;
+    }
+    .bodas-5 .bodas-top-content {
+        padding-left: 0;
+    }
+    .bodas-5 .bodas-top-content .title {
+        font-size: 100px;
+    }
+    .galeria-slider-area .swiper-button-prev {
+        left: 20px;
+    }
+    .galeria-slider-area .swiper-button-next {
+        right: 20px;
+    }
+    .tabs-slider-area .prev-arrow {
+        left: 40px;
+        bottom: 120px;
+    }
+    .tabs-slider-area .next-arrow {
+        right: 40px;
+    }
+    .select-active-bodas .dropdown-toggle::after {
+        right: 20px;
+    }
+    .visitar-item .visitar_5,
+    .visitar-item .visitar_1,
+    .visitar-item .visitar-6,
+    .visitar-item .visitar-5,
+    .visitar-item .visitar-4,
+    .visitar-item .visitar-1 {
+        padding-left: 0;
+    }
+    .gallery-area .alacena-large-btn {
+        min-width: 430px;
+    }
+    .gallery-wrapper img {
+        min-height: 380px;
+    }
+    .confia-area .confia-left-content .title {
+        font-size: 100px;
+    }
+    .confia-right-content .alacena-primary-button {
+        padding-left: 50px;
+    }
+    .nuestro-bg .title {
+        padding-left: 150px;
+        max-width: 950px;
+    }
+    .bodas-top-content {
+        padding-left: 0;
+    }
+    .bodas-top-content .title {
+        font-size: 100px;
+    }
+    .blog-area .blog-item .video-img {
+        min-width: 520px;
+        min-height: 450px;
+    }
+    .blog-area .blog-content-1 .blog-item .video-img {
+        min-width: 520px;
+        min-height: 475px;
+        padding-left: 25px;
+    }
+    .tabs-slider-area .tabs-content-inner {
+        display: block;
+        margin-bottom: 50px;
+    }
+    .tabs-content-inner .tabs-content.tabs-content-1 {
+        display: block !important;
+    }
+    .tabs-content-inner .tabs-content {
+        display: none !important;
+    }
+    .tabs-content-inner .select-active-form {
+        display: block !important;
+        margin-top: 60px;
+        max-width: 260px;
+    }
+    .tabs-content-inner .select-active-form .btn-secondary {
+        margin-bottom: 30px;
+    }
+    .tabs-content-inner .select-active-form .dropdown-menu {
+        top: 28px !important;
+    }
+    .tabs-content-inner .select-active-form .dropdown-toggle::after {
+        right: 0;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .hambagur-icon {
+        display: block !important;
+    }
+    .sc-search-box {
+        display: block !important;
+        margin-top: 30px;
+    }
+    .alacena-logo img {
+        max-width: 250px;
+    }
+    .banner-content .banner-text {
+        padding-left: 0;
+    }
+    .banner-content .banner-text .sub-title {
+        font-size: 60px;
+    }
+    .banner-content .banner-text .sub-title span {
+        font-size: 75px;
+    }
+    h1 {
+        font-size: 100px;
+    }
+    h3 {
+        font-size: 55px;
+    }
+    .ambientacion-content,
+    .nuestro-area .section-heading,
+    .nuestra-area .section-heading {
+        padding-left: 0;
+    }
+    .nuestro-bg .title {
+        padding-left: 35px;
+        max-width: 670px;
+    }
+    .nuestro-content {
+        padding-left: 15px;
+    }
+    .ambientacion-area .section-heading {
+        padding-left: 0;
+    }
+    .ambientacion-video .video-area {
+        bottom: 90px;
+    }
+    .ambientacion-video .video-area i {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 30px;
+    }
+    .confia-right-content .confia-desc {
+        font-size: 21px;
+        max-width: 100%;
+    }
+    .confia-right-content .alacena-primary-button {
+        padding-left: 0;
+    }
+    .confia-left-content {
+        margin-bottom: 80px;
+    }
+    .bodas-bottom-content,
+    .bodas-top-content {
+        padding-left: 0;
+    }
+    .carino-area .carino-right-content .carino-title {
+        font-size: 80px;
+    }
+    .carino-area .carino-right-content {
+        padding-left: 0;
+    }
+    .alacena-large-btn {
+        min-width: 345px;
+    }
+    .map-area .contact-content-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contacto-area .form-button {
+        text-align: center !important;
+    }
+    .galeria-video-area .video-wrapper .video-area .popup-videos-button i {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 30px;
+    }
+    .copyright-right-content {
+        text-align: center !important;
+    }
+    .alacena-banner-section {
+        padding-top: 80px;
+        padding-bottom: 65px;
+    }
+    .banner-content .scroll-bar {
+        margin-top: 90px;
+    }
+    .nuestra-area {
+        padding-bottom: 140px;
+    }
+    .nuestro-area {
+        padding-bottom: 125px;
+    }
+    .ambientacion-area {
+        padding-bottom: 230px;
+    }
+    .tabs-slider-4 .tabs-content {
+        margin-bottom: 15px;
+    }
+    .tabs-slider-4 {
+        padding-top: 95px;
+    }
+    .footer-area {
+        padding-bottom: 65px;
+    }
+    .copyright-left-content {
+        justify-content: center;
+    }
+    .bodas-bottom-content {
+        margin-top: 65px;
+    }
+    .bodas-area {
+        padding-bottom: 90px;
+    }
+    .carino-area,
+    .catering-area {
+        padding-bottom: 135px;
+    }
+    .puesta-area {
+        padding-bottom: 105px;
+    }
+    .completamos-area {
+        padding-bottom: 140px;
+    }
+    .carino-left-wrapper img {
+        width: 100%;
+    }
+    .mucho-area,
+    .cuidamos-area,
+    .tabs-slider-2,
+    .galeria-area,
+    .lugares-area {
+        padding-bottom: 150px;
+    }
+    .footer-border-top {
+        padding-top: 120px;
+    }
+    .bodas-top-content {
+        margin-bottom: 50px;
+    }
+    .catering-text-area {
+        padding-bottom: 115px;
+    }
+    .clasico-area {
+        padding-bottom: 145px;
+    }
+    .estaciones-area {
+        padding-bottom: 135px;
+    }
+    .diversos-item {
+        margin-bottom: 60px;
+    }
+    .footer-border-top-3 {
+        padding-top: 120px;
+    }
+    .mucho-area.mucho_two {
+        margin-bottom: 0;
+    }
+    .aperitivo_two {
+        padding-bottom: 220px;
+    }
+    .cuidamos-area .cuidamos-title {
+        margin-bottom: 50px;
+    }
+    .footer-border-top-2 {
+        padding-top: 120px;
+    }
+    .tabs-slider-3 {
+        padding-bottom: 120px;
+    }
+    .mucho_two {
+        padding-bottom: 30px;
+    }
+    .contacto-area .textarea-form label {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    .map-area {
+        padding-top: 115px;
+    }
+    .footer-border-top-4 {
+        padding-top: 120px;
+    }
+    .map-contact.mail-contact {
+        margin-bottom: 95px;
+    }
+    .map-contact.map-contact-1 {
+        margin-bottom: 105px;
+    }
+    .map-contact {
+        margin-bottom: 40px;
+    }
+    .contacto-area .contacto-form {
+        margin-bottom: 25px;
+    }
+    .lugares-area.lugares_1 {
+        padding-bottom: 50px;
+    }
+    .client-area .client-title {
+        margin: 100px auto;
+    }
+    .client-area {
+        padding-bottom: 145px;
+    }
+    .bodas-5 .lugares-button {
+        justify-content: center !important;
+        margin-top: 65px;
+    }
+    .visitar-area.visitar-1 {
+        padding-bottom: 250px;
+    }
+    .visitar-item img {
+        width: 100%;
+    }
+    .gallery-area .gallery-secondary-button {
+        margin-bottom: 150px;
+    }
+    .gallery-area .alacena-large-btn {
+        min-width: 335px;
+        font-size: 12px;
+    }
+    .lugares-2 .lugares-content {
+        padding-left: 0;
+    }
+    .lugares-area.lugares-2 {
+        padding-bottom: 100px;
+    }
+    .catering-area .catering-content-area .catering-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .catering-area .catering-content-area .catering-wrapper .wrapper-2 {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .catering-area.catering-3,
+    .lugares-area.lugares-4 {
+        padding-bottom: 105px;
+    }
+    .confia-area {
+        padding-top: 185px;
+        padding-bottom: 115px;
+    }
+    .cta-area {
+        padding-top: 260px;
+        min-height: 800px;
+        background-image: url(../images/mobile/cta-bg.png) !important;
+    }
+    .clasico-area .clasico-left-content .desc {
+        margin-bottom: 50px;
+    }
+    .mucho-area {
+        margin-bottom: 50px;
+    }
+    .cta-2,
+    .cta-4 {
+        min-height: 850px;
+        padding-top: 300px;
+    }
+    .blog-area .blog-title {
+        padding-left: 0;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+    .blog-area .blog-item .video-img {
+        min-width: 100%;
+        padding-right: 0;
+    }
+    .blog-area .blog-content-area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog-area .blog-item .blog-pl {
+        padding-left: 0;
+    }
+    .blog-area .blog-content-1 .blog-item .video-img {
+        padding-left: 0;
+        min-width: 100%;
+        height: 450px !important;
+        min-height: auto;
+    }
+    .footer-menu-area .footer-menu {
+        text-align: start !important;
+    }
+    .footer-menu .menu-list li {
+        display: block !important;
+        line-height: 2;
+    }
+    .copyright-left-content {
+        display: block;
+        text-align: center;
+        border-top: 1px solid rgb(112, 112, 112);
+        padding-top: 30px;
+    }
+    .footer-logo-area .logo-text p {
+        position: relative;
+        left: -30px;
+    }
+    .copyright-right-content {
+        display: block;
+        padding-bottom: 20px;
+    }
+    .copyright-right-content .menu-link li:nth-child(2) {
+        margin-left: -40px;
+    }
+    .footer-menu-area .footer-menu-1 {
+        text-align: start !important;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .footer-menu-1 .menu-list li {
+        display: block;
+        line-height: 2;
+    }
+    .footer-menu-area {
+        margin-bottom: 65px;
+    }
+    .footer-menu-1 .sub-menu,
+    .footer-menu-1 .list-6,
+    .footer-menu-1 .list-5,
+    .footer-menu-1 .list-4,
+    .footer-menu-1 .list-2 {
+        margin-left: 0;
+    }
+    .copyright-left-content .copyright-left-menu .menu li {
+        line-height: 2;
+    }
+    .copyright-right-content .menu-link li {
+        display: block;
+        line-height: 2;
+    }
+    .footer-menu-1 .list-6 a::before {
+        display: none;
+    }
+    .footer-menu-area {
+        position: relative;
+    }
+    .logo-text {
+        display: block !important;
+        right: 185px;
+        position: relative;
+    }
+    .copyright-social {
+        border-top: 1px solid rgb(112, 112, 112);
+        padding-top: 30px;
+    }
+    .carino-area .carino-left-wrapper.carino_wrapper_2 {
+        display: block !important;
+        margin-bottom: 50px;
+    }
+    .copyright-left-content .copyright-left-menu .menu .dots::before {
+        top: 22px;
+    }
+    .carino-area .carino-left-wrapper.carino_wrapper_1 {
+        display: none !important;
+    }
+    .catering-area.alacena-slider-group .wrapper-2 {
+        margin-top: 0;
+    }
+    .alacena-diplay-hide-2 {
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 767px) {
+    .md-min-hide,
+    .client-slider-logo {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .alacena-logo img {
+        max-width: 142px;
+    }
+    .catering-full-image {
+        margin-bottom: 70px;
+    }
+    .md-hide {
+        display: none;
+    }
+    .banner-content .banner-text .sub-title {
+        font-size: 36px;
+    }
+    .banner-content .banner-text .sub-title span {
+        font-size: 47px;
+    }
+    .banner-content .banner-text .title {
+        font-size: 55px;
+    }
+    .section-heading .sub-title {
+        font-size: 15px;
+    }
+    h5 {
+        font-size: 24px;
+    }
+    .nuestra-item img {
+        width: 100%;
+        height: 450px;
+    }
+    .alacena-primary-btn:hover {
+        background-color: transparent;
+        color: #ffffff;
+    }
+    .nuestro-title .title {
+        font-size: 90px;
+        padding-right: 20px;
+    }
+    .nuestro-bg {
+        min-height: 800px;
+        padding-top: 330px;
+        background-image: url(../images/mobile/mb-nuestro-bg.png) !important;
+    }
+    .bodas-area .parallax-window-4 {
+        height: 560px;
+    }
+    .bodas-bottom-content .desc,
+    .catering-bottom-content .desc,
+    .puesta-area .puesta-content .desc,
+    .completamos-area .completamos-content .desc,
+    .carino-area .carino-right-content .desc,
+    .lugares-area .lugares-content .desc,
+    .mucho-area .desc,
+    .aperitivo-area .aperitivo-left-content .desc,
+    .diversos-area .diversos-title .desc {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .client-gird-logo {
+        display: none;
+    }
+    .completamos-area .completamos-content .desc {
+        padding-top: 30px;
+    }
+    .carino-area .carino-right-content .sub-title {
+        font-size: 14px;
+    }
+    .bodas-1 .parallax-window {
+        height: 560px;
+    }
+    .copyright-left-content .copyright-target {
+        margin-right: 0;
+    }
+    .copyright-right-content .menu-link li:nth-child(2),
+    .copyright-right-content .menu-link li {
+        margin-left: 0;
+    }
+    .completamos-title .title {
+        margin-bottom: 40px;
+        padding-right: 15px;
+    }
+    .galeria-slider_1 .galeria-title {
+        margin-bottom: 40px;
+    }
+    .bodas-2 .bodas-top-content .title {
+        font-size: 65px;
+        margin-bottom: 30px;
+    }
+    .bodas-2 .bodas-top-content .desc {
+        font-size: 12px;
+    }
+    .bodas-2 .bodas-top-content {
+        margin-bottom: 50px;
+    }
+    .bodas-2 .parallax-window-20 {
+        min-height: 560px;
+        background-image: url(../images/mobile/mb-particulares-bg.png);
+    }
+    .cta-2.parallax-window-22 {
+        min-height: 800px;
+        background-image: url(../images/mobile/mb-cta-3.png) !important;
+    }
+    .bodas-8 .bodas-top-content .desc {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .bodas-8 .parallax-window-10,
+    .bodas-7 .parallax-window-9,
+    .bodas-3 .parallax-window-17,
+    .bodas-4 .parallax-window-18 {
+        min-height: 560px;
+    }
+    .bodas-4 .parallax-window-18 {
+        background-image: url(../images/mobile/mb-bodas-3.png) !important;
+    }
+    .cuidamos-area .cuidamos-title .title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .tabs-slider-area .next-arrow {
+        bottom: 120px;
+    }
+    .alacena-large-btn {
+        width: 100%;
+    }
+    .bodas-7 .sub-title {
+        font-size: 16px;
+    }
+    .bodas-7.bodas-corporativo .desc {
+        font-size: 13px;
+    }
+    .corporativo-bodas-top-content .desc {
+        font-size: 13px;
+    }
+    .diversos-item .desc,
+    .diversos-item .desc_1 {
+        max-width: 300px;
+    }
+    .cta-4 .cta-content .title {
+        font-size: 65px;
+    }
+    .cta-4 {
+        min-height: 800px;
+    }
+    .blog-area .title {
+        font-size: 75px;
+    }
+    .blog-area .blog-item .video-area .popup-videos-button i {
+        height: 109px;
+        width: 109px;
+        line-height: 109px;
+    }
+    .blog-area .blog-item .blog-content .date {
+        font-size: 12px;
+    }
+    .blog-area .blog-item .blog-content h6 {
+        font-size: 36px;
+    }
+    .blog-area .blog-item .blog-content .blog-link:hover::before {
+        width: 0;
+    }
+    .blog-area .blog-item .blog-content .blog-link::before {
+        width: 100%;
+    }
+    .blog-area .blog-item .desc_1 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .bodas-3 .bodas-top-content {
+        margin-bottom: 60px;
+    }
+    .bodas-3 .parallax-window-17 {
+        background-image: url(../images/mobile/mb-bodas-2.png) !important;
+    }
+    .cta-3 {
+        min-height: 800px;
+        padding-top: 150px;
+    }
+    .equipo-item .equipo-content .equipo-link {
+        margin-bottom: 12px;
+        display: block;
+    }
+    .equipo-item .equipo-content h6 {
+        margin-bottom: 0;
+    }
+    .equipo-item .equipo-content .mail-desc {
+        font-size: 18px;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        font-size: 22px;
+    }
+    .bodas-5 .lugares-form .form-input,
+    .bodas-5 .lugares-form .select-active-bodas,
+    .bodas-area.bodas-5 .alacena-secondary-btn {
+        max-width: 160px;
+    }
+    .bodas-5 .lugares-button {
+        justify-content: space-between !important;
+    }
+    .bodas-area.bodas-5 .alacena-secondary-btn {
+        line-height: 20px;
+    }
+
+    .ambientacion-area .section-heading .title {
+        font-size: 65px;
+    }
+    .nuestra-item .nuestra-content {
+        left: 25px;
+    }
+    .confia-left-content .title {
+        font-size: 65px;
+    }
+    .nuestro-bg .title {
+        padding-left: 15px;
+    }
+    h2 {
+        font-size: 65px;
+    }
+    .tabs-slider-area .tabs-content-inner {
+        justify-content: center;
+    }
+    .tabs-slider-4 .nav-tabs .nav-link {
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    .bodas-top-content .title {
+        font-size: 90px;
+    }
+    .tabs-title .title,
+    .catering-content .title {
+        font-size: 60px;
+    }
+    .diversos-title .title,
+    .cta-content .title {
+        font-size: 65px;
+    }
+    .diversos-item .title-link {
+        font-size: 36px;
+    }
+    .cuidamos-area .cuidamos-text .desc {
+        font-size: 21px;
+    }
+    .alacena-large-btn {
+        font-size: 12px;
+        min-width: 250px;
+    }
+    .contact-content-area .title {
+        font-size: 60px;
+    }
+    .map-area .contact-content-area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bodas-4 .bodas-top-content .title {
+        font-size: 65px;
+    }
+    .catering-area .catering-content-area .catering-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .catering-area .catering-content-area .catering-wrapper .wrapper-1 {
+        margin-right: 0;
+    }
+    .catering-area .catering-content-area .catering-wrapper .wrapper-1 img {
+        width: 100%;
+    }
+    .catering-area .catering-content-area .catering-wrapper .wrapper-2 {
+        margin-top: 0;
+    }
+    .galeria-area.galeria-one,
+    .aperitivo_two .aperitivo-right-wrapper .aperitivo-img,
+    .video-area.galeria-area,
+    .completamos-area .completamos-content img,
+    .puesta-area .puesta-content img {
+        display: none !important;
+    }
+    .mucho-title .title,
+    .galeria-title .title,
+    .lugares-title .title,
+    .catering-title .title {
+        font-size: 60px;
+    }
+    .carino-area .carino-right-content .carino-title,
+    .completamos-title .title,
+    .puesta-title .title {
+        font-size: 55px;
+    }
+    .galeria-slider_1 .galeria-slider-wrapper {
+        padding: 0 35px;
+    }
+    .slider-galeria-button {
+        display: block !important;
+    }
+    .slider-galeria-button .alacena-secondary-btn {
+        border: none;
+        padding: 0;
+    }
+    .slider-galeria-button .alacena-secondary-btn:hover {
+        background-color: transparent;
+        color: #b76c1c;
+    }
+    .galeria-slider-area.galeria-slider_1 {
+        padding-bottom: 95px;
+    }
+    .bodas-top-content .bodas-text ul li {
+        font-size: 12px;
+    }
+    .bodas-5 .bodas-top-content .title {
+        font-size: 70px;
+    }
+    .bodas-5 .bodas-top-content .desc {
+        font-size: 12px;
+    }
+    .bodas-area .corporavo-title {
+        font-size: 70px;
+    }
+    .completamos-area .completamos-content .desc {
+        margin-top: 10px;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .completamos-area .completamos-title {
+        margin-bottom: 0px;
+    }
+    .galeria-top-title .title {
+        font-size: 60px;
+    }
+    .galeria-title .title {
+        font-size: 60px;
+    }
+    .tabs-slider-area.tabs-slider-1 .tabs-title .title {
+        font-size: 50px;
+    }
+    .bodas-area.bodas-5 .alacena-secondary-btn {
+        padding: 0 20px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+    }
+    .visitar-header .title {
+        font-size: 60px;
+    }
+    .completamos-area.completamos-1 .completamos-title .title,
+    .departamentos-title .title,
+    .equipo-title .title,
+    .estaciones-title .title,
+    .aperitivo-title .title,
+    .clasico-left-content .title,
+    .mucho_two .mucho-title .title,
+    .puesta-area.puesta-1 .puesta-title .title,
+    .visitar-area.visitar-1 .visitar-header .title {
+        font-size: 45px;
+    }
+    .gallery-wrapper img {
+        width: 100%;
+    }
+    .gallery-area .gallery-btn-1 {
+        margin-bottom: 25px;
+    }
+    .gallery-area .gallery-secondary-button {
+        margin-bottom: 120px;
+    }
+    .gallery-area .gallery-secondary-button .alacena-secondary-btn {
+        border: none;
+        padding: 0;
+    }
+    .gallery-area .gallery-secondary-button .alacena-secondary-btn:hover {
+        background-color: transparent;
+        color: #b76c1c;
+    }
+    .bodas-6 .bodas-title .title {
+        font-size: 24px;
+    }
+
+    .completamos-area.completamos-1 .completamos-content img,
+    .puesta-area.puesta-1 .puesta-content img,
+    .puesta-area.puesta-3 .puesta-content img,
+    .puesta-area.puesta-2 .puesta-content img {
+        display: block !important;
+    }
+    .confia-area .confia-left-content .title {
+        font-size: 65px;
+    }
+    .galeria-slider-area .galeria-slider-wrapper img {
+        height: 360px;
+    }
+    .cta-5 {
+        min-height: 750px;
+        padding-top: 250px;
+        padding-bottom: 100px;
+    }
+    .cta-5 .alacena-primary-btn,
+    .cta-6 .alacena-primary-btn {
+        min-width: 190px;
+        border: 1px solid #ffffff;
+    }
+    .cta-5 .alacena-primary-btn:hover,
+    .cta-6 .alacena-primary-btn:hover {
+        color: #e5ac0e;
+        border-color: #e5ac0e;
+    }
+    .client-area .client-title .title {
+        font-size: 45px;
+    }
+    .ambientacion-video .video-area {
+        left: 50%;
+        top: 50%;
+    }
+    .slow-bg-image {
+        display: none !important;
+    }
+    .hide-bg-image {
+        display: block !important;
+    }
+    .logo-text {
+        right: 0;
+    }
+    .container {
+        padding: 0 30px;
+    }
+    .alacena-diplay-hide {
+        display: none !important;
+    }
+}
+/*medium mobile device*/
+@media only screen and (max-width: 575px) {
+    .ambientacion-video .video-area i {
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+        font-size: 25px;
+    }
+    .ambientacion-video .video-area {
+        bottom: 55px;
+    }
+    .tabs-left-btn {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .tabs-right-btn {
+        text-align: center !important;
+    }
+    .equipo-item img {
+        width: 100%;
+    }
+    .departamentos-item img {
+        width: 100%;
+    }
+    .catering-area .catering-content-area .catering-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .catering-area .catering-content-area .catering-wrapper .wrapper-1,
+    .catering-area .catering-content-area .catering-wrapper .wrapper-2,
+    .catering-area .catering-content-area .catering-wrapper .wrapper-3 {
+        margin-right: 0;
+    }
+    .galeria-slider_1 .galeria-slider-wrapper {
+        padding: 0 20px;
+    }
+    .alacena-slider-group .swider_wrapper img {
+        width: 100%;
+    }
+    .alacena-slider-group .swiper-button-prev,
+    .alacena-slider-group .swiper-button-next {
+        display: block !important;
+        top: 50%;
+        left: 0;
+    }
+    .alacena-slider-group .swiper-button-next {
+        left: auto;
+        right: -10px;
+    }
+    .client-item {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .alacena-offcanvas-area {
+        width: 100%;
+    }
+    .alacena-diplay-hide-1 {
+        display: none !important;
+    }
+}
