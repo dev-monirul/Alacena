@@ -298,6 +298,11 @@
             $("#overlay").fadeIn().delay(100).fadeOut();
         });
     }
+
+    $(".services_select").click(function () {
+        $(this).toggleClass("active");
+    });
+
     // parallax Js
     $(".parallax-window").parallax({ imageSrc: "assets/images/bg/corporativo.jpg" });
     // parallax Js
