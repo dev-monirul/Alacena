@@ -118,6 +118,7 @@
     }
     .galeria-slider-area .galeria-top-title {
         padding-left: 0;
+        padding-top: 30px;
     }
     .galeria-video-area .video-wrapper .video-area .popup-videos-button i {
         width: 100px;
@@ -227,6 +228,10 @@
     }
 }
 @media only screen and (max-width: 991px) {
+    html, body{
+        font-size: 18px;
+        line-height: 28px;
+    }
     .hambagur-icon {
         display: block !important;
     }
@@ -528,7 +533,7 @@
     }
     .footer-logo-area .logo-text p {
         position: relative;
-        left: -30px;
+        left: -5px;
     }
     .copyright-right-content {
         display: block;
@@ -595,6 +600,23 @@
     .alacena-diplay-hide-2 {
         display: none !important;
     }
+    .alacena-secondary-btn{
+        padding: 0 30px;
+        width: 100%;
+    }
+    .footer-menu-1 .menu-list li a{
+        text-transform: capitalize;
+    }
+    .puesta-2 .puesta-img{
+        height: 430px;
+        object-fit: cover;
+        margin-bottom: 60px;
+    }
+    .bodas-6 .bodas-text ul.list-gap{
+        line-height: 18px;
+    }
+    
+
 }
 @media only screen and (min-width: 767px) {
     .md-min-hide,
@@ -965,6 +987,7 @@
     .gallery-area .gallery-secondary-button .alacena-secondary-btn {
         border: none;
         padding: 0;
+        text-decoration: underline;
     }
     .gallery-area .gallery-secondary-button .alacena-secondary-btn:hover {
         background-color: transparent;
@@ -1022,6 +1045,13 @@
     }
     .alacena-diplay-hide {
         display: none !important;
+    }
+    .lugares-bendinat-fea-img img{
+        height: 500px;
+    }
+    .lugares-bendinat-fea-img{
+        margin-left: 30px;
+        margin-right: 30px;
     }
 }
 /*medium mobile device*/
